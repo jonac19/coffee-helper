@@ -1,0 +1,46 @@
+{
+    "name": "Simple",
+    "drinks": [
+        {
+            "name": "Mocha",
+            "type": "Espresso",
+            "ingredients": [
+                {
+                    "name": "Dark Chocolate",
+                    "amount": "35/45 grams"
+                }
+            ]
+        },
+        {
+            "name": "Hot Chocolate",
+            "type": "Other",
+            "ingredients": [
+                {
+                    "name": "Dark Chocolate",
+                    "amount": "35/45 grams"
+                }
+            ]
+        },
+        {
+            "name": "Chai",
+            "type": "Other",
+            "ingredients": [
+                {
+                    "name": "Chai Concentrate",
+                    "amount": "70/100 grams"
+                }
+            ]
+        },
+        {
+            "name": "Chai (Iced)",
+            "type": "Other",
+            "ingredients": [
+                {
+                    "name": "Chai Concentrate",
+                    "amount": "60/90 grams"
+                }
+            ]
+        }
+    ]
+}
+
