@@ -6,20 +6,16 @@
             "type": "Smoothie",
             "ingredients": [
                 {
-                    "name": "Cold Brew",
-                    "amount": "120/220 grams"
+                    "name": "Ice",
+                    "amount": "270 grams"
                 },
                 {
-                    "name": "Sparkling Water",
-                    "amount": "100/166 grams"
+                    "name": "Peanut Butter",
+                    "amount": "35 grams"
                 },
                 {
-                    "name": "Elderflower",
-                    "amount": "23/38 grams"
-                },
-                {
-                    "name": "Grapefruit Bitter",
-                    "amount": "6/10 grams"
+                    "name": "Banana",
+                    "amount": "1 banana"
                 }
             ]
         },
@@ -28,20 +24,32 @@
             "type": "Smoothie",
             "ingredients": [
                 {
-                    "name": "Cold Brew",
-                    "amount": "120/220 grams"
+                    "name": "Ice",
+                    "amount": "140 grams"
                 },
                 {
-                    "name": "Sparkling Water",
-                    "amount": "100/166 grams"
+                    "name": "Frozen Pineapple",
+                    "amount": "140 grams"
                 },
                 {
-                    "name": "Elderflower",
-                    "amount": "23/38 grams"
+                    "name": "Power Greens",
+                    "amount": "50 grams"
                 },
                 {
-                    "name": "Grapefruit Bitter",
-                    "amount": "6/10 grams"
+                    "name": "Banana",
+                    "amount": "1 banana"
+                },
+                {
+                    "name": "Honey",
+                    "amount": "25 grams"
+                },
+                {
+                    "name": "Coconut Milk",
+                    "amount": "40 grams"
+                },
+                {
+                    "name": "Coconut Water",
+                    "amount": "100 grams"
                 }
             ]
         },
@@ -50,20 +58,24 @@
             "type": "Smoothie",
             "ingredients": [
                 {
-                    "name": "Cold Brew",
-                    "amount": "120/220 grams"
+                    "name": "Ice",
+                    "amount": "140 grams"
                 },
                 {
-                    "name": "Sparkling Water",
-                    "amount": "100/166 grams"
+                    "name": "Frozen Berries",
+                    "amount": "140 grams"
                 },
                 {
-                    "name": "Elderflower",
-                    "amount": "23/38 grams"
+                    "name": "Banana",
+                    "amount": "1 banana"
                 },
                 {
-                    "name": "Grapefruit Bitter",
-                    "amount": "6/10 grams"
+                    "name": "Honey",
+                    "amount": "25 grams"
+                },
+                {
+                    "name": "Cherry Blossom Tea",
+                    "amount": "140 grams"
                 }
             ]
         }

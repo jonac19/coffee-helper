@@ -12,12 +12,18 @@ struct ContentView: View {
 
     var body: some View {
         VStack {
-            ScrollView(.horizontal) {
-                HStack(spacing: 30) {
+            HStack {
+                Text("SPRO Coffee Helper")
+                    .font(.system(size: 20, weight: .bold))
+                    .foregroundColor(Color.red)
+            }
+            
+            ScrollView(.horizontal, showsIndicators: false) {
+                HStack(spacing: 25) {
                     ForEach(drinksModel.categories, id: \.name) { category in
                         Text(category.name)
                     }
-                }
+                }.padding(EdgeInsets(top: 10, leading: 20, bottom: 10, trailing: 20))
             }
             
             List {

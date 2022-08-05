@@ -76,7 +76,7 @@
             "type": "Tea",
             "ingredients": [
                 {
-                    "name": "Cherry Blossom",
+                    "name": "Cherry Blossom Tea",
                     "amount": "185/308 grams"
                 },
                 {
@@ -94,6 +94,62 @@
                 {
                     "name": "Rhubarb",
                     "amount": "7/11 grams"
+                }
+            ]
+        },
+        {
+            "name": "Fifty Shades",
+            "type": "Tea",
+            "ingredients": [
+                {
+                    "name": "Fifty Shades Tea",
+                    "amount": "225/310 grams"
+                },
+                {
+                    "name": "Evaporated Milk",
+                    "amount": "55/90 grams"
+                }
+            ]
+        },
+        {
+            "name": "Fifty Shades (Iced)",
+            "type": "Tea",
+            "ingredients": [
+                {
+                    "name": "Fifty Shades Tea",
+                    "amount": "185/245 grams"
+                },
+                {
+                    "name": "Evaporated Milk",
+                    "amount": "45/65 grams"
+                }
+            ]
+        },
+        {
+            "name": "Hong Kong Milk Tea",
+            "type": "Tea",
+            "ingredients": [
+                {
+                    "name": "Hong Kong Milk Tea",
+                    "amount": "110/175 grams"
+                },
+                {
+                    "name": "Evaporated Milk",
+                    "amount": "40/75 grams"
+                }
+            ]
+        },
+        {
+            "name": "Hong Kong Milk Tea (Iced)",
+            "type": "Tea",
+            "ingredients": [
+                {
+                    "name": "Hong Kong Milk Tea",
+                    "amount": "100/145 grams"
+                },
+                {
+                    "name": "Evaporated Milk",
+                    "amount": "50/60 grams"
                 }
             ]
         }
