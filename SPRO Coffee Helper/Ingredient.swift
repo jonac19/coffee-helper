@@ -10,4 +10,8 @@ import Foundation
 struct Ingredient: Codable {
     let name: String
     let amount: String
+    
+    static func dummyIngredient() -> Ingredient {
+        return Ingredient(name: "Ingredient Name", amount: "Ingredient Amount")
+    }
 }
