@@ -1,0 +1,71 @@
+{
+    "name": "Smoothies",
+    "drinks": [
+        {
+            "name": "After School",
+            "type": "Smoothie",
+            "ingredients": [
+                {
+                    "name": "Cold Brew",
+                    "amount": "120/220 grams"
+                },
+                {
+                    "name": "Sparkling Water",
+                    "amount": "100/166 grams"
+                },
+                {
+                    "name": "Elderflower",
+                    "amount": "23/38 grams"
+                },
+                {
+                    "name": "Grapefruit Bitter",
+                    "amount": "6/10 grams"
+                }
+            ]
+        },
+        {
+            "name": "Urban Jungle",
+            "type": "Smoothie",
+            "ingredients": [
+                {
+                    "name": "Cold Brew",
+                    "amount": "120/220 grams"
+                },
+                {
+                    "name": "Sparkling Water",
+                    "amount": "100/166 grams"
+                },
+                {
+                    "name": "Elderflower",
+                    "amount": "23/38 grams"
+                },
+                {
+                    "name": "Grapefruit Bitter",
+                    "amount": "6/10 grams"
+                }
+            ]
+        },
+        {
+            "name": "Super Fruit Smash",
+            "type": "Smoothie",
+            "ingredients": [
+                {
+                    "name": "Cold Brew",
+                    "amount": "120/220 grams"
+                },
+                {
+                    "name": "Sparkling Water",
+                    "amount": "100/166 grams"
+                },
+                {
+                    "name": "Elderflower",
+                    "amount": "23/38 grams"
+                },
+                {
+                    "name": "Grapefruit Bitter",
+                    "amount": "6/10 grams"
+                }
+            ]
+        }
+    ]
+}

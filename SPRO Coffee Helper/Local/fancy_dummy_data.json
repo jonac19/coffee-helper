@@ -1,0 +1,69 @@
+{
+    "name": "Fancy",
+    "drinks": [
+        {
+            "name": "Spice Islands",
+            "type": "Espresso",
+            "ingredients": [
+                {
+                    "name": "Spice Islands Mix",
+                    "amount": "1/1.5 scoops"
+                }
+            ]
+        },
+        {
+            "name": "V for Velvet",
+            "type": "Espresso",
+            "ingredients": [
+                {
+                    "name": "V for Velvet Mix",
+                    "amount": "1/1.5 scoops"
+                }
+            ]
+        },
+        {
+            "name": "Orange Blossom",
+            "type": "Espresso",
+            "ingredients": [
+                {
+                    "name": "Honey",
+                    "amount": "25/33 grams"
+                },
+                {
+                    "name": "Orange Extract",
+                    "amount": "3/4 pipettes"
+                }
+            ]
+        },
+        {
+            "name": "Coco De Mer",
+            "type": "Espresso",
+            "ingredients": [
+                {
+                    "name": "Dark Chocolate",
+                    "amount": "25/33 grams"
+                }
+            ]
+        },
+        {
+            "name": "Geisha",
+            "type": "Matcha",
+            "ingredients": [
+                {
+                    "name": "Honey",
+                    "amount": "25/33 grams"
+                }
+            ]
+        },
+        {
+            "name": "Shiro",
+            "type": "Matcha",
+            "ingredients": [
+                {
+                    "name": "White Chocolate",
+                    "amount": "25/33 grams"
+                }
+            ]
+        }
+    ]
+}
