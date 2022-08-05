@@ -8,9 +8,28 @@
 import SwiftUI
 
 struct ContentView: View {
+    var drinksModel: DrinksModel = DrinksModel()
+
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            ScrollView(.horizontal) {
+                HStack(spacing: 30) {
+                    ForEach(drinksModel.categories, id: \.name) { category in
+                        Text(category.name)
+                    }
+                }
+            }
+            
+            List {
+                ForEach(drinksModel.categories, id: \.name) { category in
+                    Section(header: Text(category.name)) {
+                        ForEach(category.drinks, id: \.name) { drink in
+                            Text(drink.name)
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
