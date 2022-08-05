@@ -14,10 +14,11 @@
 		DFBE6DC3289C92AF00D69360 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBE6DC2289C92AF00D69360 /* Category.swift */; };
 		DFBE6DC5289C92FD00D69360 /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBE6DC4289C92FD00D69360 /* Drink.swift */; };
 		DFBE6DC7289C933700D69360 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBE6DC6289C933700D69360 /* Ingredient.swift */; };
-		DFBE6DC9289C958D00D69360 /* fancy_dummy_data.json in Resources */ = {isa = PBXBuildFile; fileRef = DFBE6DC8289C958D00D69360 /* fancy_dummy_data.json */; };
+		DFBE6DC9289C958D00D69360 /* fancy_dummy_data.json in Sources */ = {isa = PBXBuildFile; fileRef = DFBE6DC8289C958D00D69360 /* fancy_dummy_data.json */; };
 		DFBE6DCB289CCEDB00D69360 /* DrinksModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBE6DCA289CCEDB00D69360 /* DrinksModel.swift */; };
-		DFBE6DCF289CD04800D69360 /* overTheTop_dummy_data.json in Resources */ = {isa = PBXBuildFile; fileRef = DFBE6DCE289CD04800D69360 /* overTheTop_dummy_data.json */; };
-		DFBE6DD5289CF7F400D69360 /* smoothie_dummy_data.json in Resources */ = {isa = PBXBuildFile; fileRef = DFBE6DD4289CF7F400D69360 /* smoothie_dummy_data.json */; };
+		DFBE6DCF289CD04800D69360 /* overTheTop_dummy_data.json in Sources */ = {isa = PBXBuildFile; fileRef = DFBE6DCE289CD04800D69360 /* overTheTop_dummy_data.json */; };
+		DFBE6DD5289CF7F400D69360 /* smoothie_dummy_data.json in Sources */ = {isa = PBXBuildFile; fileRef = DFBE6DD4289CF7F400D69360 /* smoothie_dummy_data.json */; };
+		DFBE6DD8289CFEE100D69360 /* Local in Sources */ = {isa = PBXBuildFile; fileRef = DFBE6DD7289CFEE100D69360 /* Local */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		DFBE6DCA289CCEDB00D69360 /* DrinksModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinksModel.swift; sourceTree = "<group>"; };
 		DFBE6DCE289CD04800D69360 /* overTheTop_dummy_data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = overTheTop_dummy_data.json; sourceTree = "<group>"; };
 		DFBE6DD4289CF7F400D69360 /* smoothie_dummy_data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = smoothie_dummy_data.json; sourceTree = "<group>"; };
+		DFBE6DD7289CFEE100D69360 /* Local */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Local; path = "SPRO Coffee Helper/Local"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +51,7 @@
 		DFBE6D7F289B9C1A00D69360 = {
 			isa = PBXGroup;
 			children = (
+				DFBE6DD7289CFEE100D69360 /* Local */,
 				DFBE6D8A289B9C1A00D69360 /* SPRO Coffee Helper */,
 				DFBE6D89289B9C1A00D69360 /* Products */,
 			);
@@ -154,10 +157,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFBE6DD5289CF7F400D69360 /* smoothie_dummy_data.json in Resources */,
-				DFBE6DC9289C958D00D69360 /* fancy_dummy_data.json in Resources */,
 				DFBE6D93289B9C1B00D69360 /* Preview Assets.xcassets in Resources */,
-				DFBE6DCF289CD04800D69360 /* overTheTop_dummy_data.json in Resources */,
 				DFBE6D90289B9C1B00D69360 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -169,6 +169,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFBE6DD8289CFEE100D69360 /* Local in Sources */,
+				DFBE6DD5289CF7F400D69360 /* smoothie_dummy_data.json in Sources */,
+				DFBE6DC9289C958D00D69360 /* fancy_dummy_data.json in Sources */,
+				DFBE6DCF289CD04800D69360 /* overTheTop_dummy_data.json in Sources */,
 				DFBE6D8E289B9C1A00D69360 /* ContentView.swift in Sources */,
 				DFBE6D8C289B9C1A00D69360 /* SPRO_Coffee_HelperApp.swift in Sources */,
 				DFBE6DC7289C933700D69360 /* Ingredient.swift in Sources */,
