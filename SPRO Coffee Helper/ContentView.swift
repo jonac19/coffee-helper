@@ -13,9 +13,18 @@ struct ContentView: View {
 
     var body: some View {
         VStack {
-            Text("SPRO Coffee Helper")
-                .font(.system(size: 35, weight: .bold))
-                .foregroundColor(Color.red)
+            HStack {
+                Image("spro_logo_clear")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 100)
+                Spacer()
+                Image("search_icon")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 45)
+            }
+            .padding([.leading, .trailing], 20)
 
             NavigationView {
                 VStack {
@@ -23,9 +32,11 @@ struct ContentView: View {
                         HStack(spacing: 25) {
                             ForEach(drinksModel.categories, id: \.name) { category in
                                 Text(category.name)
+                                    .foregroundColor(.white)
                             }
                         }.padding(EdgeInsets(top: 10, leading: 20, bottom: 10, trailing: 20))
                     }
+                    .background(Color(red: 0.60, green: 0, blue: 0))
                     
                     List {
                         ForEach(drinksModel.categories, id: \.name) { category in
