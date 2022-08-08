@@ -10,6 +10,7 @@ import Foundation
 struct Drink: Codable {
     let name: String
     let type: String
+    let img: String
     let ingredients: [Ingredient]
     
     static func dummyDrink() -> Drink {
@@ -17,6 +18,6 @@ struct Drink: Codable {
         for _ in 1...2 {
             dummyIngredients.append(Ingredient.dummyIngredient())
         }
-        return Drink(name: "Drink Name", type: "Drink Type", ingredients: dummyIngredients)
+        return Drink(name: "Drink Name", type: "Drink Type", img: "island_hop", ingredients: dummyIngredients)
     }
 }

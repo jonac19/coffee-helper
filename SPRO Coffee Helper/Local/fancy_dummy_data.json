@@ -4,6 +4,7 @@
         {
             "name": "Spice Islands",
             "type": "Espresso",
+            "img": "island_hop",
             "ingredients": [
                 {
                     "name": "Spice Islands Mix",
@@ -14,6 +15,7 @@
         {
             "name": "V for Velvet",
             "type": "Espresso",
+            "img": "v_for_velvet",
             "ingredients": [
                 {
                     "name": "V for Velvet Mix",
@@ -24,6 +26,7 @@
         {
             "name": "Orange Blossom",
             "type": "Espresso",
+            "img": "island_hop",
             "ingredients": [
                 {
                     "name": "Honey",
@@ -38,6 +41,7 @@
         {
             "name": "Coco De Mer",
             "type": "Espresso",
+            "img": "island_hop",
             "ingredients": [
                 {
                     "name": "Dark Chocolate",
@@ -48,6 +52,7 @@
         {
             "name": "Geisha",
             "type": "Matcha",
+            "img": "island_hop",
             "ingredients": [
                 {
                     "name": "Honey",
@@ -58,6 +63,7 @@
         {
             "name": "Shiro",
             "type": "Matcha",
+            "img": "shiro",
             "ingredients": [
                 {
                     "name": "White Chocolate",

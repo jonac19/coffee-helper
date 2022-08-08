@@ -4,6 +4,7 @@
         {
             "name": "Mocha",
             "type": "Espresso",
+            "img": "island_hop",
             "ingredients": [
                 {
                     "name": "Dark Chocolate",
@@ -14,6 +15,7 @@
         {
             "name": "Hot Chocolate",
             "type": "Other",
+            "img": "island_hop",
             "ingredients": [
                 {
                     "name": "Dark Chocolate",
@@ -24,6 +26,7 @@
         {
             "name": "Chai",
             "type": "Other",
+            "img": "island_hop",
             "ingredients": [
                 {
                     "name": "Chai Concentrate",
@@ -34,6 +37,7 @@
         {
             "name": "Chai (Iced)",
             "type": "Other",
+            "img": "island_hop",
             "ingredients": [
                 {
                     "name": "Chai Concentrate",

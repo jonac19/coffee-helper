@@ -4,6 +4,7 @@
         {
             "name": "After School",
             "type": "Smoothie",
+            "img": "island_hop",
             "ingredients": [
                 {
                     "name": "Ice",
@@ -22,6 +23,7 @@
         {
             "name": "Urban Jungle",
             "type": "Smoothie",
+            "img": "island_hop",
             "ingredients": [
                 {
                     "name": "Ice",
@@ -56,6 +58,7 @@
         {
             "name": "Super Fruit Smash",
             "type": "Smoothie",
+            "img": "island_hop",
             "ingredients": [
                 {
                     "name": "Ice",

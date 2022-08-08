@@ -4,6 +4,7 @@
         {
             "name": "The Cool Hunter",
             "type": "Cold Brew",
+            "img": "island_hop",
             "ingredients": [
                 {
                     "name": "Cold Brew",
@@ -26,6 +27,7 @@
         {
             "name": "Cold Fashion",
             "type": "Cold Brew",
+            "img": "island_hop",
             "ingredients": [
                 {
                     "name": "Cold Brew",
@@ -52,6 +54,7 @@
         {
             "name": "Sangria",
             "type": "Cold Brew",
+            "img": "sangria",
             "ingredients": [
                 {
                     "name": "Cold Brew",
@@ -74,6 +77,7 @@
         {
             "name": "Strawberry Fields",
             "type": "Tea",
+            "img": "island_hop",
             "ingredients": [
                 {
                     "name": "Cherry Blossom Tea",
@@ -100,6 +104,7 @@
         {
             "name": "Fifty Shades",
             "type": "Tea",
+            "img": "island_hop",
             "ingredients": [
                 {
                     "name": "Fifty Shades Tea",
@@ -114,6 +119,7 @@
         {
             "name": "Fifty Shades (Iced)",
             "type": "Tea",
+            "img": "island_hop",
             "ingredients": [
                 {
                     "name": "Fifty Shades Tea",
@@ -128,6 +134,7 @@
         {
             "name": "Hong Kong Milk Tea",
             "type": "Tea",
+            "img": "island_hop",
             "ingredients": [
                 {
                     "name": "Hong Kong Milk Tea",
@@ -142,6 +149,7 @@
         {
             "name": "Hong Kong Milk Tea (Iced)",
             "type": "Tea",
+            "img": "island_hop",
             "ingredients": [
                 {
                     "name": "Hong Kong Milk Tea",

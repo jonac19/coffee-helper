@@ -11,16 +11,16 @@ struct DrinkView: View {
     var drink: Drink
 
     var body: some View {
-        ZStack(alignment: .topLeading) {
+        ScrollView(.vertical) {
             VStack {
-                Image("island_hop")
+                Image(drink.img)
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .overlay(
                         RoundedRectangle(cornerRadius: 16)
                             .stroke(.red, lineWidth: 10)
                     )
-                    .frame(width: 350)
+                    .frame(height: 250)
                 
                 VStack(alignment: .leading) {
                     VStack(alignment: .leading) {
@@ -41,6 +41,7 @@ struct DrinkView: View {
                     }
                 }
             }
+            .padding(.top, 30)
         }
         .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .topLeading)
     }

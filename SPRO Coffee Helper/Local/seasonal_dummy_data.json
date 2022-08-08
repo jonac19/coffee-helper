@@ -4,6 +4,7 @@
         {
             "name": "Smoke & Mirror",
             "type": "Espresso",
+            "img": "island_hop",
             "ingredients": [
                 {
                     "name": "Agave",
@@ -22,6 +23,7 @@
         {
             "name": "Indian Summer",
             "type": "Espresso",
+            "img": "island_hop",
             "ingredients": [
                 {
                     "name": "Rose Syrup",
@@ -36,6 +38,7 @@
         {
             "name": "Island Hop",
             "type": "Espresso",
+            "img": "island_hop",
             "ingredients": [
                 {
                     "name": "Island Hop Mix",
@@ -46,6 +49,7 @@
         {
             "name": "Tea Thyme",
             "type": "Espresso",
+            "img": "tea_thyme",
             "ingredients": [
                 {
                     "name": "Black Currant Syrup",
@@ -60,6 +64,7 @@
         {
             "name": "Pixie Dust",
             "type": "Espresso",
+            "img": "pixie_dust",
             "ingredients": [
                 {
                     "name": "Yuzu",
@@ -78,6 +83,7 @@
         {
             "name": "Black Swan",
             "type": "Espresso",
+            "img": "black_swan",
             "ingredients": [
                 {
                     "name": "Honey",
@@ -92,6 +98,7 @@
         {
             "name": "Kat's Pajamas",
             "type": "Espresso",
+            "img": "island_hop",
             "ingredients": [
                 {
                     "name": "Honey",
@@ -106,6 +113,7 @@
         {
             "name": "Madagascar",
             "type": "Espresso",
+            "img": "island_hop",
             "ingredients": [
                 {
                     "name": "Dark Muscovado Sugar",
@@ -120,6 +128,7 @@
         {
             "name": "Mardi Gras",
             "type": "Cold Brew",
+            "img": "mardi_gras",
             "ingredients": [
                 {
                     "name": "Mardi Gras Concentrate",
@@ -134,6 +143,7 @@
         {
             "name": "Tokyo Rose",
             "type": "Matcha",
+            "img": "island_hop",
             "ingredients": [
                 {
                     "name": "Rose Syrup",
@@ -144,6 +154,7 @@
         {
             "name": "Hojicha",
             "type": "Hojicha",
+            "img": "island_hop",
             "ingredients": [
                 {
                     "name": "Simple Syrup",
