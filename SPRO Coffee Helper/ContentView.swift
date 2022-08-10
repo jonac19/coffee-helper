@@ -8,11 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
-    var drinksModel: DrinksModel = DrinksModel()
-    @State private var showSimple = true
+    @StateObject var drinksModel: DrinksModel = DrinksModel()
 
     var body: some View {
         VStack {
+            // Top navbar
             HStack {
                 Image("spro_logo_clear")
                     .resizable()
@@ -28,9 +28,10 @@ struct ContentView: View {
 
             NavigationView {
                 VStack {
+                    // Category navbar
                     ScrollView(.horizontal, showsIndicators: false) {
                         HStack(spacing: 25) {
-                            ForEach(drinksModel.categories, id: \.name) { category in
+                            ForEach($drinksModel.categories, id: \.name) { $category in
                                 Text(category.name)
                                     .foregroundColor(.white)
                             }
@@ -38,13 +39,16 @@ struct ContentView: View {
                     }
                     .background(Color(red: 0.60, green: 0, blue: 0))
                     
+                    // Category list
                     List {
                         ForEach(drinksModel.categories, id: \.name) { category in
-                            Section(header: Text(category.name)) {
-                                ForEach(category.drinks, id: \.name) { drink in
-                                    NavigationLink(
-                                        drink.name, destination: DrinkView(drink: drink)
-                                    )
+                            if !category.hidden {
+                                Section(header: Text(category.name)) {
+                                    ForEach(category.drinks, id: \.name) { drink in
+                                        NavigationLink(
+                                            drink.name, destination: DrinkView(drink: drink)
+                                        )
+                                    }
                                 }
                             }
                         }
@@ -52,6 +56,32 @@ struct ContentView: View {
                 }
                 .navigationBarTitle("Back", displayMode: .inline)
                 .navigationBarHidden(true)
+            }
+            
+            // Bottom navbar
+            HStack(alignment: .center, spacing: 30) {
+                Image("coffee_icon")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 45)
+                Divider()
+                    .frame(height: 60)
+                Image("tea_icon")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 45)
+                Divider()
+                    .frame(height: 60)
+                Image("food_icon")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 45)
+                Divider()
+                    .frame(height: 60)
+                Image("coffee_bag_icon")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 45)
             }
         }
     }

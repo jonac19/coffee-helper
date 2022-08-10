@@ -7,7 +7,13 @@
 
 import Foundation
 
-struct Category: Codable {
+class Category: Codable {
+    var hidden: Bool = false
     let name: String
     let drinks: [Drink]
+    
+    enum CodingKeys: String, CodingKey {
+        case name
+        case drinks
+    }
 }

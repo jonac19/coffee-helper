@@ -11,7 +11,7 @@ struct DrinkView: View {
     var drink: Drink
 
     var body: some View {
-        ScrollView(.vertical) {
+        ScrollView(.vertical ) {
             VStack {
                 Image(drink.img)
                     .resizable()
