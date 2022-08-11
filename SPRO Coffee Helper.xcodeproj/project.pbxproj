@@ -21,7 +21,6 @@
 		DFBE6DE5289D9CD400D69360 /* seasonal_dummy_data.json in Resources */ = {isa = PBXBuildFile; fileRef = DFBE6DD9289D72A000D69360 /* seasonal_dummy_data.json */; };
 		DFBE6DE7289D9E3600D69360 /* simple_dummy_data.json in Resources */ = {isa = PBXBuildFile; fileRef = DFBE6DE6289D9E3600D69360 /* simple_dummy_data.json */; };
 		DFBE6DEF289DB48B00D69360 /* DrinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBE6DEE289DB48B00D69360 /* DrinkView.swift */; };
-		DFEDF0CB28A371B800A9BD6B /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEDF0CA28A371B800A9BD6B /* CategoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,7 +39,6 @@
 		DFBE6DD9289D72A000D69360 /* seasonal_dummy_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = seasonal_dummy_data.json; sourceTree = "<group>"; };
 		DFBE6DE6289D9E3600D69360 /* simple_dummy_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = simple_dummy_data.json; sourceTree = "<group>"; };
 		DFBE6DEE289DB48B00D69360 /* DrinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkView.swift; sourceTree = "<group>"; };
-		DFEDF0CA28A371B800A9BD6B /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +74,6 @@
 				DFBE6DD6289CF9FF00D69360 /* Local */,
 				DFBE6D8B289B9C1A00D69360 /* SPRO_Coffee_HelperApp.swift */,
 				DFBE6D8D289B9C1A00D69360 /* ContentView.swift */,
-				DFEDF0CA28A371B800A9BD6B /* CategoryView.swift */,
 				DFBE6DEE289DB48B00D69360 /* DrinkView.swift */,
 				DFBE6DCA289CCEDB00D69360 /* DrinksModel.swift */,
 				DFBE6DC2289C92AF00D69360 /* Category.swift */,
@@ -189,7 +186,6 @@
 				DFBE6DC5289C92FD00D69360 /* Drink.swift in Sources */,
 				DFBE6DCB289CCEDB00D69360 /* DrinksModel.swift in Sources */,
 				DFBE6DEF289DB48B00D69360 /* DrinkView.swift in Sources */,
-				DFEDF0CB28A371B800A9BD6B /* CategoryView.swift in Sources */,
 				DFBE6DC3289C92AF00D69360 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

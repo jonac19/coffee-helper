@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @StateObject var drinksModel: DrinksModel = DrinksModel()
+    var drinksModel: DrinksModel = DrinksModel()
 
     var body: some View {
         VStack {
@@ -25,30 +25,29 @@ struct ContentView: View {
                     .frame(width: 45)
             }
             .padding([.leading, .trailing], 20)
-
+            
             NavigationView {
                 VStack {
                     // Category navbar
                     ScrollView(.horizontal, showsIndicators: false) {
                         HStack(spacing: 25) {
-                            ForEach($drinksModel.categories, id: \.name) { $category in
-                                Text(category.name)
-                                    .foregroundColor(.white)
+                            ForEach(drinksModel.categories) { category in
+                                Button(category.name) {
+                                    
+                                }.foregroundColor(.white)
+                                
                             }
                         }.padding(EdgeInsets(top: 10, leading: 20, bottom: 10, trailing: 20))
-                    }
-                    .background(Color(red: 0.60, green: 0, blue: 0))
+                    }.background(Color(red: 0.60, green: 0, blue: 0))
                     
                     // Category list
                     List {
-                        ForEach(drinksModel.categories, id: \.name) { category in
-                            if !category.hidden {
-                                Section(header: Text(category.name)) {
-                                    ForEach(category.drinks, id: \.name) { drink in
-                                        NavigationLink(
-                                            drink.name, destination: DrinkView(drink: drink)
-                                        )
-                                    }
+                        ForEach(drinksModel.categories) { category in
+                            Section(header: Text(category.name)) {
+                                ForEach(category.drinks) { drink in
+                                    NavigationLink(
+                                        drink.name, destination: DrinkView(drink: drink)
+                                    )
                                 }
                             }
                         }

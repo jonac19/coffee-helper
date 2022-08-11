@@ -7,11 +7,19 @@
 
 import Foundation
 
-struct Drink: Codable {
+struct Drink: Codable, Identifiable {
+    var id: String{name}
     let name: String
     let type: String
     let img: String
     let ingredients: [Ingredient]
+    
+    enum CodingKeys: String, CodingKey {
+        case name
+        case type
+        case img
+        case ingredients
+    }
     
     static func dummyDrink() -> Drink {
         var dummyIngredients = [Ingredient]()
