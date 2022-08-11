@@ -8,7 +8,7 @@
 import Foundation
 
 class DrinksModel: ObservableObject {
-    @Published var categories: [Category] = [Category]()
+    var categories: [Category] = [Category]()
     var dummyDataFiles: [String] = ["simple_dummy_data", "fancy_dummy_data", "seasonal_dummy_data", "overTheTop_dummy_data", "smoothie_dummy_data"]
     
     init() {

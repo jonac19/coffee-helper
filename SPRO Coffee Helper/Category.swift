@@ -7,8 +7,8 @@
 
 import Foundation
 
-class Category: Codable {
-    var hidden: Bool = false
+struct Category: Codable, Identifiable {
+    var id: String{name}
     let name: String
     let drinks: [Drink]
     
