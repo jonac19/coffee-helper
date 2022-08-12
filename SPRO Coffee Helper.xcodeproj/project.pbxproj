@@ -22,6 +22,7 @@
 		DFBE6DE7289D9E3600D69360 /* simple_dummy_data.json in Resources */ = {isa = PBXBuildFile; fileRef = DFBE6DE6289D9E3600D69360 /* simple_dummy_data.json */; };
 		DFBE6DEF289DB48B00D69360 /* DrinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBE6DEE289DB48B00D69360 /* DrinkView.swift */; };
 		DFEDF0CF28A5C0A800A9BD6B /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEDF0CE28A5C0A800A9BD6B /* CategoryView.swift */; };
+		DFEDF0D128A6C30F00A9BD6B /* GroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEDF0D028A6C30F00A9BD6B /* GroupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		DFBE6DE6289D9E3600D69360 /* simple_dummy_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = simple_dummy_data.json; sourceTree = "<group>"; };
 		DFBE6DEE289DB48B00D69360 /* DrinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkView.swift; sourceTree = "<group>"; };
 		DFEDF0CE28A5C0A800A9BD6B /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		DFEDF0D028A6C30F00A9BD6B /* GroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				DFBE6DD6289CF9FF00D69360 /* Local */,
 				DFBE6D8B289B9C1A00D69360 /* SPRO_Coffee_HelperApp.swift */,
 				DFBE6D8D289B9C1A00D69360 /* ContentView.swift */,
+				DFEDF0D028A6C30F00A9BD6B /* GroupView.swift */,
 				DFEDF0CE28A5C0A800A9BD6B /* CategoryView.swift */,
 				DFBE6DEE289DB48B00D69360 /* DrinkView.swift */,
 				DFBE6DCA289CCEDB00D69360 /* DrinksModel.swift */,
@@ -185,6 +188,7 @@
 			files = (
 				DFBE6D8E289B9C1A00D69360 /* ContentView.swift in Sources */,
 				DFBE6D8C289B9C1A00D69360 /* SPRO_Coffee_HelperApp.swift in Sources */,
+				DFEDF0D128A6C30F00A9BD6B /* GroupView.swift in Sources */,
 				DFBE6DC7289C933700D69360 /* Ingredient.swift in Sources */,
 				DFBE6DC5289C92FD00D69360 /* Drink.swift in Sources */,
 				DFBE6DCB289CCEDB00D69360 /* DrinksModel.swift in Sources */,
