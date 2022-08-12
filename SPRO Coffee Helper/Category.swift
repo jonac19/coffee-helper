@@ -24,6 +24,4 @@ struct Category: Codable, Identifiable, Hashable, Equatable {
     static func == (lhs: Category, rhs: Category) -> Bool {
         return lhs.id == rhs.id
     }
-    
-    
 }

@@ -26,33 +26,7 @@ struct ContentView: View {
             }
             .padding([.leading, .trailing], 20)
             
-            CategoryView(drinksModel: drinksModel)
-            
-            // Bottom navbar
-            HStack(alignment: .center, spacing: 30) {
-                Image("coffee_icon")
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .frame(width: 45)
-                Divider()
-                    .frame(height: 60)
-                Image("tea_icon")
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .frame(width: 45)
-                Divider()
-                    .frame(height: 60)
-                Image("food_icon")
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .frame(width: 45)
-                Divider()
-                    .frame(height: 60)
-                Image("coffee_bag_icon")
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .frame(width: 45)
-            }
+            GroupView(drinksModel: drinksModel)
         }
     }
 }
