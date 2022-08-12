@@ -26,36 +26,7 @@ struct ContentView: View {
             }
             .padding([.leading, .trailing], 20)
             
-            NavigationView {
-                VStack {
-                    // Category navbar
-                    ScrollView(.horizontal, showsIndicators: false) {
-                        HStack(spacing: 25) {
-                            ForEach(drinksModel.categories) { category in
-                                Button(category.name) {
-                                    
-                                }.foregroundColor(.white)
-                                
-                            }
-                        }.padding(EdgeInsets(top: 10, leading: 20, bottom: 10, trailing: 20))
-                    }.background(Color(red: 0.60, green: 0, blue: 0))
-                    
-                    // Category list
-                    List {
-                        ForEach(drinksModel.categories) { category in
-                            Section(header: Text(category.name)) {
-                                ForEach(category.drinks) { drink in
-                                    NavigationLink(
-                                        drink.name, destination: DrinkView(drink: drink)
-                                    )
-                                }
-                            }
-                        }
-                    }
-                }
-                .navigationBarTitle("Back", displayMode: .inline)
-                .navigationBarHidden(true)
-            }
+            CategoryView(drinksModel: drinksModel)
             
             // Bottom navbar
             HStack(alignment: .center, spacing: 30) {
