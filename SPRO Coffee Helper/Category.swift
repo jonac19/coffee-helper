@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Category: Codable, Identifiable {
+struct Category: Codable, Identifiable, Hashable, Equatable {
     var id: String{name}
     let name: String
     let drinks: [Drink]
@@ -16,4 +16,14 @@ struct Category: Codable, Identifiable {
         case name
         case drinks
     }
+    
+    func hash(into hasher: inout Hasher) {
+      hasher.combine(id)
+    }
+    
+    static func == (lhs: Category, rhs: Category) -> Bool {
+        return lhs.id == rhs.id
+    }
+    
+    
 }
