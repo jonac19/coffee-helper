@@ -18,7 +18,7 @@ struct CategoryView: View {
     
     var body: some View {
         NavigationView {
-            VStack {
+            VStack (spacing: 0) {
                 // Category navbar
                 ScrollView(.horizontal, showsIndicators: false) {
                     HStack(spacing: 25) {
@@ -32,8 +32,10 @@ struct CategoryView: View {
                             }.foregroundColor(.white)
                             
                         }
-                    }.padding(EdgeInsets(top: 10, leading: 20, bottom: 10, trailing: 20))
-                }.background(Color(red: 0.60, green: 0, blue: 0))
+                    }
+                    .padding(EdgeInsets(top: 15, leading: 20, bottom: 15, trailing: 20))
+                }
+                .background(Color(red: 0.60, green: 0, blue: 0))
                 
                 // Category list
                 List {
@@ -49,6 +51,7 @@ struct CategoryView: View {
                         }
                     }
                 }
+                .frame(height: .infinity)
             }
             .navigationBarTitle("Back", displayMode: .inline)
             .navigationBarHidden(true)
