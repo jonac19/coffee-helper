@@ -8,8 +8,6 @@
 import SwiftUI
 
 struct ContentView: View {
-    var drinksModel: DrinksModel = DrinksModel()
-
     var body: some View {
         VStack {
             // Top navbar
@@ -26,7 +24,7 @@ struct ContentView: View {
             }
             .padding([.leading, .trailing], 20)
             
-            GroupView(drinksModel: drinksModel)
+            GroupView()
         }
     }
 }
