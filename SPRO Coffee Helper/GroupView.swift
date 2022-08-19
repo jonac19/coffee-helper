@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct GroupView: View {
-    @ObservedObject var drinksModel: DrinksModel = DrinksModel()
+    @ObservedObject var sproModel: SproModel = SproModel()
     @State private var groupSelection: String = "Coffee"
     
     var position: CGFloat {
@@ -29,9 +29,13 @@ struct GroupView: View {
     var body: some View {
         VStack(spacing: 0) {
             if groupSelection == "Coffee" {
-                CategoryView(drinksModel: drinksModel)
+                CategoryView(group: sproModel.groups[0])
+            } else if groupSelection == "Tea" {
+                CategoryView(group: sproModel.groups[1])
+            } else if groupSelection == "Food" {
+                CategoryView(group: sproModel.groups[2])
             } else {
-                CategoryView(drinksModel: drinksModel)
+                CategoryView(group: sproModel.groups[0])
             }
             
             
