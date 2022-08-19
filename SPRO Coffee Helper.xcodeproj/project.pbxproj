@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF6222B728AF3C1200BFCA0D /* food_dummy_data.json in Resources */ = {isa = PBXBuildFile; fileRef = DF6222B628AF3C1200BFCA0D /* food_dummy_data.json */; };
 		DFBE6D8C289B9C1A00D69360 /* SPRO_Coffee_HelperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBE6D8B289B9C1A00D69360 /* SPRO_Coffee_HelperApp.swift */; };
 		DFBE6D8E289B9C1A00D69360 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBE6D8D289B9C1A00D69360 /* ContentView.swift */; };
 		DFBE6D90289B9C1B00D69360 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFBE6D8F289B9C1B00D69360 /* Assets.xcassets */; };
@@ -14,18 +15,17 @@
 		DFBE6DC3289C92AF00D69360 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBE6DC2289C92AF00D69360 /* Category.swift */; };
 		DFBE6DC5289C92FD00D69360 /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBE6DC4289C92FD00D69360 /* Drink.swift */; };
 		DFBE6DC7289C933700D69360 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBE6DC6289C933700D69360 /* Ingredient.swift */; };
-		DFBE6DCB289CCEDB00D69360 /* DrinksModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBE6DCA289CCEDB00D69360 /* DrinksModel.swift */; };
-		DFBE6DE2289D9CD400D69360 /* overTheTop_dummy_data.json in Resources */ = {isa = PBXBuildFile; fileRef = DFBE6DCE289CD04800D69360 /* overTheTop_dummy_data.json */; };
-		DFBE6DE3289D9CD400D69360 /* fancy_dummy_data.json in Resources */ = {isa = PBXBuildFile; fileRef = DFBE6DC8289C958D00D69360 /* fancy_dummy_data.json */; };
-		DFBE6DE4289D9CD400D69360 /* smoothie_dummy_data.json in Resources */ = {isa = PBXBuildFile; fileRef = DFBE6DD4289CF7F400D69360 /* smoothie_dummy_data.json */; };
-		DFBE6DE5289D9CD400D69360 /* seasonal_dummy_data.json in Resources */ = {isa = PBXBuildFile; fileRef = DFBE6DD9289D72A000D69360 /* seasonal_dummy_data.json */; };
-		DFBE6DE7289D9E3600D69360 /* simple_dummy_data.json in Resources */ = {isa = PBXBuildFile; fileRef = DFBE6DE6289D9E3600D69360 /* simple_dummy_data.json */; };
+		DFBE6DCB289CCEDB00D69360 /* SproModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBE6DCA289CCEDB00D69360 /* SproModel.swift */; };
 		DFBE6DEF289DB48B00D69360 /* DrinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBE6DEE289DB48B00D69360 /* DrinkView.swift */; };
 		DFEDF0CF28A5C0A800A9BD6B /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEDF0CE28A5C0A800A9BD6B /* CategoryView.swift */; };
 		DFEDF0D128A6C30F00A9BD6B /* GroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEDF0D028A6C30F00A9BD6B /* GroupView.swift */; };
+		DFEDF0DF28ACA9C300A9BD6B /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEDF0DE28ACA9C300A9BD6B /* Group.swift */; };
+		DFEDF0E128ACA9E600A9BD6B /* coffee_dummy_data.json in Resources */ = {isa = PBXBuildFile; fileRef = DFEDF0E028ACA9E600A9BD6B /* coffee_dummy_data.json */; };
+		DFEDF0E328ACAACD00A9BD6B /* tea_dummy_data.json in Resources */ = {isa = PBXBuildFile; fileRef = DFEDF0E228ACAACD00A9BD6B /* tea_dummy_data.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DF6222B628AF3C1200BFCA0D /* food_dummy_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = food_dummy_data.json; sourceTree = "<group>"; };
 		DFBE6D88289B9C1A00D69360 /* SPRO Coffee Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SPRO Coffee Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFBE6D8B289B9C1A00D69360 /* SPRO_Coffee_HelperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPRO_Coffee_HelperApp.swift; sourceTree = "<group>"; };
 		DFBE6D8D289B9C1A00D69360 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,15 +34,13 @@
 		DFBE6DC2289C92AF00D69360 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		DFBE6DC4289C92FD00D69360 /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
 		DFBE6DC6289C933700D69360 /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
-		DFBE6DC8289C958D00D69360 /* fancy_dummy_data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fancy_dummy_data.json; sourceTree = "<group>"; };
-		DFBE6DCA289CCEDB00D69360 /* DrinksModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinksModel.swift; sourceTree = "<group>"; };
-		DFBE6DCE289CD04800D69360 /* overTheTop_dummy_data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = overTheTop_dummy_data.json; sourceTree = "<group>"; };
-		DFBE6DD4289CF7F400D69360 /* smoothie_dummy_data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = smoothie_dummy_data.json; sourceTree = "<group>"; };
-		DFBE6DD9289D72A000D69360 /* seasonal_dummy_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = seasonal_dummy_data.json; sourceTree = "<group>"; };
-		DFBE6DE6289D9E3600D69360 /* simple_dummy_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = simple_dummy_data.json; sourceTree = "<group>"; };
+		DFBE6DCA289CCEDB00D69360 /* SproModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SproModel.swift; sourceTree = "<group>"; };
 		DFBE6DEE289DB48B00D69360 /* DrinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkView.swift; sourceTree = "<group>"; };
 		DFEDF0CE28A5C0A800A9BD6B /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 		DFEDF0D028A6C30F00A9BD6B /* GroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupView.swift; sourceTree = "<group>"; };
+		DFEDF0DE28ACA9C300A9BD6B /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		DFEDF0E028ACA9E600A9BD6B /* coffee_dummy_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = coffee_dummy_data.json; sourceTree = "<group>"; };
+		DFEDF0E228ACAACD00A9BD6B /* tea_dummy_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = tea_dummy_data.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +79,8 @@
 				DFEDF0D028A6C30F00A9BD6B /* GroupView.swift */,
 				DFEDF0CE28A5C0A800A9BD6B /* CategoryView.swift */,
 				DFBE6DEE289DB48B00D69360 /* DrinkView.swift */,
-				DFBE6DCA289CCEDB00D69360 /* DrinksModel.swift */,
+				DFBE6DCA289CCEDB00D69360 /* SproModel.swift */,
+				DFEDF0DE28ACA9C300A9BD6B /* Group.swift */,
 				DFBE6DC2289C92AF00D69360 /* Category.swift */,
 				DFBE6DC4289C92FD00D69360 /* Drink.swift */,
 				DFBE6DC6289C933700D69360 /* Ingredient.swift */,
@@ -102,11 +101,9 @@
 		DFBE6DD6289CF9FF00D69360 /* Local */ = {
 			isa = PBXGroup;
 			children = (
-				DFBE6DCE289CD04800D69360 /* overTheTop_dummy_data.json */,
-				DFBE6DC8289C958D00D69360 /* fancy_dummy_data.json */,
-				DFBE6DD4289CF7F400D69360 /* smoothie_dummy_data.json */,
-				DFBE6DD9289D72A000D69360 /* seasonal_dummy_data.json */,
-				DFBE6DE6289D9E3600D69360 /* simple_dummy_data.json */,
+				DFEDF0E028ACA9E600A9BD6B /* coffee_dummy_data.json */,
+				DFEDF0E228ACAACD00A9BD6B /* tea_dummy_data.json */,
+				DF6222B628AF3C1200BFCA0D /* food_dummy_data.json */,
 			);
 			path = Local;
 			sourceTree = "<group>";
@@ -169,12 +166,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFBE6DE2289D9CD400D69360 /* overTheTop_dummy_data.json in Resources */,
-				DFBE6DE7289D9E3600D69360 /* simple_dummy_data.json in Resources */,
-				DFBE6DE3289D9CD400D69360 /* fancy_dummy_data.json in Resources */,
-				DFBE6DE4289D9CD400D69360 /* smoothie_dummy_data.json in Resources */,
-				DFBE6DE5289D9CD400D69360 /* seasonal_dummy_data.json in Resources */,
+				DFEDF0E328ACAACD00A9BD6B /* tea_dummy_data.json in Resources */,
+				DFEDF0E128ACA9E600A9BD6B /* coffee_dummy_data.json in Resources */,
 				DFBE6D93289B9C1B00D69360 /* Preview Assets.xcassets in Resources */,
+				DF6222B728AF3C1200BFCA0D /* food_dummy_data.json in Resources */,
 				DFBE6D90289B9C1B00D69360 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -189,9 +184,10 @@
 				DFBE6D8E289B9C1A00D69360 /* ContentView.swift in Sources */,
 				DFBE6D8C289B9C1A00D69360 /* SPRO_Coffee_HelperApp.swift in Sources */,
 				DFEDF0D128A6C30F00A9BD6B /* GroupView.swift in Sources */,
+				DFEDF0DF28ACA9C300A9BD6B /* Group.swift in Sources */,
 				DFBE6DC7289C933700D69360 /* Ingredient.swift in Sources */,
 				DFBE6DC5289C92FD00D69360 /* Drink.swift in Sources */,
-				DFBE6DCB289CCEDB00D69360 /* DrinksModel.swift in Sources */,
+				DFBE6DCB289CCEDB00D69360 /* SproModel.swift in Sources */,
 				DFBE6DEF289DB48B00D69360 /* DrinkView.swift in Sources */,
 				DFEDF0CF28A5C0A800A9BD6B /* CategoryView.swift in Sources */,
 				DFBE6DC3289C92AF00D69360 /* Category.swift in Sources */,

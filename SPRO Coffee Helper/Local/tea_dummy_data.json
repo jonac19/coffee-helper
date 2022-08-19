@@ -1,0 +1,171 @@
+{
+    "name": "Tea",
+    "categories": [
+        {
+            "name": "Black Tea",
+            "drinks": [
+                {
+                    "name": "English Breakfast",
+                    "type": "Tea",
+                    "img": "island_hop",
+                    "ingredients": [
+                        {
+                            "name": "English Breakfast Tea Leaves",
+                            "amount": "30/60 grams"
+                        },
+                        {
+                            "name": "Water",
+                            "amount": "1/2 pumps"
+                        }
+                    ]
+                },
+                {
+                    "name": "English Breakfast (Iced)",
+                    "type": "Tea",
+                    "img": "island_hop",
+                    "ingredients": [
+                        {
+                            "name": "English Breakfast Tea Leaves",
+                            "amount": "40/70 grams"
+                        },
+                        {
+                            "name": "Water",
+                            "amount": "1/2 pumps"
+                        },
+                        {
+                            "name": "Ice",
+                            "amount": "100/200 grams"
+                        }
+                    ]
+                },
+                {
+                    "name": "Earl Grey",
+                    "type": "Tea",
+                    "img": "island_hop",
+                    "ingredients": [
+                        {
+                            "name": "Earl Grey Tea Leaves",
+                            "amount": "40/70 grams"
+                        },
+                        {
+                            "name": "Water",
+                            "amount": "1/2 pumps"
+                        }
+                    ]
+                },
+                {
+                    "name": "Earl Grey (Iced)",
+                    "type": "Tea",
+                    "img": "island_hop",
+                    "ingredients": [
+                        {
+                            "name": "Earl Grey Tea Leaves",
+                            "amount": "40/70 grams"
+                        },
+                        {
+                            "name": "Water",
+                            "amount": "1/2 pumps"
+                        },
+                        {
+                            "name": "Ice",
+                            "amount": "100/200 grams"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Green Tea",
+            "drinks": [
+                {
+                    "name": "Genmaicha",
+                    "type": "Tea",
+                    "img": "island_hop",
+                    "ingredients": [
+                        {
+                            "name": "Genmaicha Tea Leaves",
+                            "amount": "45/75 grams"
+                        },
+                        {
+                            "name": "Water",
+                            "amount": "1/2 pumps"
+                        }
+                    ]
+                },
+                {
+                    "name": "Genmaicha (Iced)",
+                    "type": "Tea",
+                    "img": "island_hop",
+                    "ingredients": [
+                        {
+                            "name": "Genmaicha Tea Leaves",
+                            "amount": "55/85 grams"
+                        },
+                        {
+                            "name": "Water",
+                            "amount": "1/2 pumps"
+                        },
+                        {
+                            "name": "Ice",
+                            "amount": "100/200 grams"
+                        }
+                    ]
+                },
+                {
+                    "name": "Cherry Blossom",
+                    "type": "Tea",
+                    "img": "island_hop",
+                    "ingredients": [
+                        {
+                            "name": "Cherry Blossom Tea Leaves",
+                            "amount": "30/60 grams"
+                        },
+                        {
+                            "name": "Water",
+                            "amount": "1/2 pumps"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Herbal Tea",
+            "drinks": [
+                {
+                    "name": "Peppermint",
+                    "type": "Tea",
+                    "img": "island_hop",
+                    "ingredients": [
+                        {
+                            "name": "Peppermint Tea Leaves",
+                            "amount": "25/55 grams"
+                        },
+                        {
+                            "name": "Water",
+                            "amount": "1/2 pumps"
+                        }
+                    ]
+                },
+                {
+                    "name": "Peppermint (Iced)",
+                    "type": "Tea",
+                    "img": "island_hop",
+                    "ingredients": [
+                        {
+                            "name": "Peppermint Tea Leaves",
+                            "amount": "35/65 grams"
+                        },
+                        {
+                            "name": "Water",
+                            "amount": "1/2 pumps"
+                        },
+                        {
+                            "name": "Ice",
+                            "amount": "100/200 grams"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

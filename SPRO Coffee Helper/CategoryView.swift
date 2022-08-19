@@ -8,12 +8,12 @@
 import SwiftUI
 
 struct CategoryView: View {
-    var drinksModel: DrinksModel
+    var group: Group
     @State private var visibleCategories: Set<Category>
     
-    init(drinksModel: DrinksModel) {
-        visibleCategories = Set(drinksModel.categories)
-        self.drinksModel = drinksModel
+    init(group: Group) {
+        visibleCategories = Set(group.categories)
+        self.group = group
     }
     
     var body: some View {
@@ -22,7 +22,7 @@ struct CategoryView: View {
                 // Category navbar
                 ScrollView(.horizontal, showsIndicators: false) {
                     HStack(spacing: 25) {
-                        ForEach(drinksModel.categories) { category in
+                        ForEach(group.categories) { category in
                             Button(category.name) {
                                 if visibleCategories.contains(category) {
                                     visibleCategories.remove(category)
@@ -39,7 +39,7 @@ struct CategoryView: View {
                 
                 // Category list
                 List {
-                    ForEach(drinksModel.categories) { category in
+                    ForEach(group.categories) { category in
                         if visibleCategories.contains(category) {
                             Section(header: Text(category.name)) {
                                 ForEach(category.drinks) { drink in
@@ -61,6 +61,6 @@ struct CategoryView: View {
 
 struct CategoryView_Previews: PreviewProvider {
     static var previews: some View {
-        CategoryView(drinksModel: DrinksModel())
+        GroupView()
     }
 }

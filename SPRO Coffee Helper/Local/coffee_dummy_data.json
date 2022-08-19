@@ -1,0 +1,546 @@
+{
+    "name": "Coffee",
+    "categories": [
+        {
+            "name": "Simple",
+            "drinks": [
+                {
+                    "name": "Mocha",
+                    "type": "Espresso",
+                    "img": "island_hop",
+                    "ingredients": [
+                        {
+                            "name": "Dark Chocolate",
+                            "amount": "35/45 grams"
+                        }
+                    ]
+                },
+                {
+                    "name": "Hot Chocolate",
+                    "type": "Other",
+                    "img": "island_hop",
+                    "ingredients": [
+                        {
+                            "name": "Dark Chocolate",
+                            "amount": "35/45 grams"
+                        }
+                    ]
+                },
+                {
+                    "name": "Chai",
+                    "type": "Other",
+                    "img": "island_hop",
+                    "ingredients": [
+                        {
+                            "name": "Chai Concentrate",
+                            "amount": "70/100 grams"
+                        }
+                    ]
+                },
+                {
+                    "name": "Chai (Iced)",
+                    "type": "Other",
+                    "img": "island_hop",
+                    "ingredients": [
+                        {
+                            "name": "Chai Concentrate",
+                            "amount": "60/90 grams"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Fancy",
+            "drinks": [
+                {
+                    "name": "Spice Islands",
+                    "type": "Espresso",
+                    "img": "island_hop",
+                    "ingredients": [
+                        {
+                            "name": "Spice Islands Mix",
+                            "amount": "1/1.5 scoops"
+                        }
+                    ]
+                },
+                {
+                    "name": "V for Velvet",
+                    "type": "Espresso",
+                    "img": "v_for_velvet",
+                    "ingredients": [
+                        {
+                            "name": "V for Velvet Mix",
+                            "amount": "1/1.5 scoops"
+                        }
+                    ]
+                },
+                {
+                    "name": "Orange Blossom",
+                    "type": "Espresso",
+                    "img": "island_hop",
+                    "ingredients": [
+                        {
+                            "name": "Honey",
+                            "amount": "25/33 grams"
+                        },
+                        {
+                            "name": "Orange Extract",
+                            "amount": "3/4 pipettes"
+                        }
+                    ]
+                },
+                {
+                    "name": "Coco De Mer",
+                    "type": "Espresso",
+                    "img": "island_hop",
+                    "ingredients": [
+                        {
+                            "name": "Dark Chocolate",
+                            "amount": "25/33 grams"
+                        }
+                    ]
+                },
+                {
+                    "name": "Geisha",
+                    "type": "Matcha",
+                    "img": "island_hop",
+                    "ingredients": [
+                        {
+                            "name": "Honey",
+                            "amount": "25/33 grams"
+                        }
+                    ]
+                },
+                {
+                    "name": "Shiro",
+                    "type": "Matcha",
+                    "img": "shiro",
+                    "ingredients": [
+                        {
+                            "name": "White Chocolate",
+                            "amount": "25/33 grams"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Seasonal",
+            "drinks": [
+                {
+                    "name": "Smoke & Mirror",
+                    "type": "Espresso",
+                    "img": "island_hop",
+                    "ingredients": [
+                        {
+                            "name": "Agave",
+                            "amount": "5/8 grams"
+                        },
+                        {
+                            "name": "Rose Syrup",
+                            "amount": "20/33 grams"
+                        },
+                        {
+                            "name": "Smoke Extract",
+                            "amount": "1/2 pipettes"
+                        }
+                    ]
+                },
+                {
+                    "name": "Indian Summer",
+                    "type": "Espresso",
+                    "img": "island_hop",
+                    "ingredients": [
+                        {
+                            "name": "Rose Syrup",
+                            "amount": "25/35 grams"
+                        },
+                        {
+                            "name": "Cardamom",
+                            "amount": "0.5/1 scoops"
+                        }
+                    ]
+                },
+                {
+                    "name": "Island Hop",
+                    "type": "Espresso",
+                    "img": "island_hop",
+                    "ingredients": [
+                        {
+                            "name": "Island Hop Mix",
+                            "amount": "0.5/1 scoops grams"
+                        },
+                    ]
+                },
+                {
+                    "name": "Tea Thyme",
+                    "type": "Espresso",
+                    "img": "tea_thyme",
+                    "ingredients": [
+                        {
+                            "name": "Black Currant Syrup",
+                            "amount": "25/35 grams"
+                        },
+                        {
+                            "name": "Thyme",
+                            "amount": "2/4 sprigs"
+                        }
+                    ]
+                },
+                {
+                    "name": "Pixie Dust",
+                    "type": "Espresso",
+                    "img": "pixie_dust",
+                    "ingredients": [
+                        {
+                            "name": "Yuzu",
+                            "amount": "35/50 grams"
+                        },
+                        {
+                            "name": "Sansho Pepper",
+                            "amount": "3/5 shakes"
+                        },
+                        {
+                            "name": "Yuzu Dust",
+                            "amount": "3/5 shakes"
+                        }
+                    ]
+                },
+                {
+                    "name": "Black Swan",
+                    "type": "Espresso",
+                    "img": "black_swan",
+                    "ingredients": [
+                        {
+                            "name": "Honey",
+                            "amount": "15/25 grams"
+                        },
+                        {
+                            "name": "Charcoal",
+                            "amount": "1/1.5 scoops"
+                        }
+                    ]
+                },
+                {
+                    "name": "Kat's Pajamas",
+                    "type": "Espresso",
+                    "img": "island_hop",
+                    "ingredients": [
+                        {
+                            "name": "Honey",
+                            "amount": "25/35 grams"
+                        },
+                        {
+                            "name": "Tumeric/Ginger",
+                            "amount": "1/1.5 scoops"
+                        }
+                    ]
+                },
+                {
+                    "name": "Madagascar",
+                    "type": "Espresso",
+                    "img": "island_hop",
+                    "ingredients": [
+                        {
+                            "name": "Dark Muscovado Sugar",
+                            "amount": "1/1.5 scoops"
+                        },
+                        {
+                            "name": "Vanilla Extract",
+                            "amount": "1/1.5 pipettes"
+                        }
+                    ]
+                },
+                {
+                    "name": "Mardi Gras",
+                    "type": "Cold Brew",
+                    "img": "mardi_gras",
+                    "ingredients": [
+                        {
+                            "name": "Mardi Gras Concentrate",
+                            "amount": "70/100 grams"
+                        },
+                        {
+                            "name": "Simple Syrup",
+                            "amount": "25/33 grams"
+                        }
+                    ]
+                },
+                {
+                    "name": "Tokyo Rose",
+                    "type": "Matcha",
+                    "img": "island_hop",
+                    "ingredients": [
+                        {
+                            "name": "Rose Syrup",
+                            "amount": "25/33 grams"
+                        }
+                    ]
+                },
+                {
+                    "name": "Hojicha",
+                    "type": "Hojicha",
+                    "img": "island_hop",
+                    "ingredients": [
+                        {
+                            "name": "Simple Syrup",
+                            "amount": "15/25 grams"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Over The Top",
+            "drinks": [
+                {
+                    "name": "The Cool Hunter",
+                    "type": "Cold Brew",
+                    "img": "island_hop",
+                    "ingredients": [
+                        {
+                            "name": "Cold Brew",
+                            "amount": "120/220 grams"
+                        },
+                        {
+                            "name": "Sparkling Water",
+                            "amount": "100/166 grams"
+                        },
+                        {
+                            "name": "Elderflower",
+                            "amount": "23/38 grams"
+                        },
+                        {
+                            "name": "Grapefruit Bitter",
+                            "amount": "6/10 grams"
+                        }
+                    ]
+                },
+                {
+                    "name": "Cold Fashion",
+                    "type": "Cold Brew",
+                    "img": "island_hop",
+                    "ingredients": [
+                        {
+                            "name": "Cold Brew",
+                            "amount": "185/308 grams"
+                        },
+                        {
+                            "name": "Gum Syrup",
+                            "amount": "15/25 grams"
+                        },
+                        {
+                            "name": "Orange Blossom",
+                            "amount": "5/9 grams"
+                        },
+                        {
+                            "name": "Orange Peel",
+                            "amount": "1 peel"
+                        },
+                        {
+                            "name": "Luxardo Cherry",
+                            "amount": "1/2 cherries"
+                        }
+                    ]
+                },
+                {
+                    "name": "Sangria",
+                    "type": "Cold Brew",
+                    "img": "sangria",
+                    "ingredients": [
+                        {
+                            "name": "Cold Brew",
+                            "amount": "240/400 grams"
+                        },
+                        {
+                            "name": "Frozen Berries",
+                            "amount": "6/8 berries"
+                        },
+                        {
+                            "name": "Peach Bitter",
+                            "amount": "20/33 grams"
+                        },
+                        {
+                            "name": "Raspberry Gum",
+                            "amount": "25/40 grams"
+                        }
+                    ]
+                },
+                {
+                    "name": "Strawberry Fields",
+                    "type": "Tea",
+                    "img": "island_hop",
+                    "ingredients": [
+                        {
+                            "name": "Cherry Blossom Tea",
+                            "amount": "185/308 grams"
+                        },
+                        {
+                            "name": "Strawberry",
+                            "amount": "1/2 strawberries"
+                        },
+                        {
+                            "name": "Mint Leaf",
+                            "amount": "3/5 leaves"
+                        },
+                        {
+                            "name": "Honey",
+                            "amount": "25/40 grams"
+                        },
+                        {
+                            "name": "Rhubarb",
+                            "amount": "7/11 grams"
+                        }
+                    ]
+                },
+                {
+                    "name": "Fifty Shades",
+                    "type": "Tea",
+                    "img": "island_hop",
+                    "ingredients": [
+                        {
+                            "name": "Fifty Shades Tea",
+                            "amount": "225/310 grams"
+                        },
+                        {
+                            "name": "Evaporated Milk",
+                            "amount": "55/90 grams"
+                        }
+                    ]
+                },
+                {
+                    "name": "Fifty Shades (Iced)",
+                    "type": "Tea",
+                    "img": "island_hop",
+                    "ingredients": [
+                        {
+                            "name": "Fifty Shades Tea",
+                            "amount": "185/245 grams"
+                        },
+                        {
+                            "name": "Evaporated Milk",
+                            "amount": "45/65 grams"
+                        }
+                    ]
+                },
+                {
+                    "name": "Hong Kong Milk Tea",
+                    "type": "Tea",
+                    "img": "island_hop",
+                    "ingredients": [
+                        {
+                            "name": "Hong Kong Milk Tea",
+                            "amount": "110/175 grams"
+                        },
+                        {
+                            "name": "Evaporated Milk",
+                            "amount": "40/75 grams"
+                        }
+                    ]
+                },
+                {
+                    "name": "Hong Kong Milk Tea (Iced)",
+                    "type": "Tea",
+                    "img": "island_hop",
+                    "ingredients": [
+                        {
+                            "name": "Hong Kong Milk Tea",
+                            "amount": "100/145 grams"
+                        },
+                        {
+                            "name": "Evaporated Milk",
+                            "amount": "50/60 grams"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Smoothies",
+            "drinks": [
+                {
+                    "name": "After School",
+                    "type": "Smoothie",
+                    "img": "island_hop",
+                    "ingredients": [
+                        {
+                            "name": "Ice",
+                            "amount": "270 grams"
+                        },
+                        {
+                            "name": "Peanut Butter",
+                            "amount": "35 grams"
+                        },
+                        {
+                            "name": "Banana",
+                            "amount": "1 banana"
+                        }
+                    ]
+                },
+                {
+                    "name": "Urban Jungle",
+                    "type": "Smoothie",
+                    "img": "island_hop",
+                    "ingredients": [
+                        {
+                            "name": "Ice",
+                            "amount": "140 grams"
+                        },
+                        {
+                            "name": "Frozen Pineapple",
+                            "amount": "140 grams"
+                        },
+                        {
+                            "name": "Power Greens",
+                            "amount": "50 grams"
+                        },
+                        {
+                            "name": "Banana",
+                            "amount": "1 banana"
+                        },
+                        {
+                            "name": "Honey",
+                            "amount": "25 grams"
+                        },
+                        {
+                            "name": "Coconut Milk",
+                            "amount": "40 grams"
+                        },
+                        {
+                            "name": "Coconut Water",
+                            "amount": "100 grams"
+                        }
+                    ]
+                },
+                {
+                    "name": "Super Fruit Smash",
+                    "type": "Smoothie",
+                    "img": "island_hop",
+                    "ingredients": [
+                        {
+                            "name": "Ice",
+                            "amount": "140 grams"
+                        },
+                        {
+                            "name": "Frozen Berries",
+                            "amount": "140 grams"
+                        },
+                        {
+                            "name": "Banana",
+                            "amount": "1 banana"
+                        },
+                        {
+                            "name": "Honey",
+                            "amount": "25 grams"
+                        },
+                        {
+                            "name": "Cherry Blossom Tea",
+                            "amount": "140 grams"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
