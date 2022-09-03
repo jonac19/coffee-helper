@@ -11,39 +11,51 @@ struct DrinkView: View {
     var drink: Drink
 
     var body: some View {
-        ScrollView(.vertical ) {
-            VStack {
-                Image(drink.img)
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .overlay(
-                        RoundedRectangle(cornerRadius: 16)
-                            .stroke(.red, lineWidth: 10)
-                    )
-                    .frame(height: 250)
-                
-                VStack(alignment: .leading) {
-                    VStack(alignment: .leading) {
-                        Text(drink.name)
-                            .font(.system(size: 30, weight: .bold))
+        VStack {
+            Rectangle()
+                .ignoresSafeArea()
+                .frame(height: 10)
+                .foregroundColor(Color(red: 0.93, green: 0.00, blue: 0.02))
+            ScrollView(.vertical ) {
+                VStack {
+                    HStack {
+                        VStack(alignment: .leading) {
+                            Text(drink.name)
+                                .font(.system(size: 30, weight: .bold))
+                            
+                            Text(drink.type)
+                        }
+                        .padding(.leading, 20)
                         
-                        Text(drink.type)
-                    }.padding(20)
+                        Spacer()
+                    }
+
+                    Image(drink.img)
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .overlay(
+                            RoundedRectangle(cornerRadius: 16)
+                                .stroke(Color(red: 0.93, green: 0.00, blue: 0.02), lineWidth: 10)
+                        )
+                        .frame(height: 300)
+                        .padding([.top, .bottom], 20)
                     
-                    ScrollView(.vertical) {
-                        ForEach(drink.ingredients, id: \.name) { ingredient in
-                            HStack {
-                                Text(ingredient.name)
-                                Spacer()
-                                Text(ingredient.amount)
-                            }.padding([.leading, .bottom, .trailing])
+                    VStack {
+                        ScrollView(.vertical) {
+                            ForEach(drink.ingredients, id: \.name) { ingredient in
+                                HStack {
+                                    Text(ingredient.name)
+                                    Spacer()
+                                    Text(ingredient.amount)
+                                }.padding([.leading, .bottom, .trailing])
+                            }
                         }
                     }
                 }
+                .padding(.top, 30)
             }
-            .padding(.top, 30)
+            .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .topLeading)
         }
-        .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .topLeading)
     }
 }
 

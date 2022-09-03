@@ -14,13 +14,13 @@ struct GroupView: View {
     var position: CGFloat {
         switch groupSelection {
         case "Coffee":
-            return -155
+            return -144
         case "Tea":
-            return -53
+            return -48
         case "Food":
-            return 53
+            return 48
         case "Batch Brew":
-            return 155
+            return 144
         default:
             return -155
         }
@@ -41,16 +41,17 @@ struct GroupView: View {
             
             // Bottom navbar
             VStack {
+                // Selection Bar Overlay
                 HStack {
                     Rectangle()
-                        .foregroundColor(Color.red)
-                        .frame(width: 80)
+                        .foregroundColor(Color(red: 0.93, green: 0.00, blue: 0.02))
+                        .frame(width: 70)
                         .offset(x: position)
         
                 }
                 .frame(height: 5)
                 
-                HStack(alignment: .center, spacing: 30) {
+                HStack(alignment: .center, spacing: 25) {
                     Button(action: {
                         groupSelection = "Coffee"
                     }) {
