@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct DrinkView: View {
+    @State private var isHot: Bool = true
+    @State private var isRegular: Bool = true
     var drink: Drink
 
     var body: some View {
@@ -40,13 +42,40 @@ struct DrinkView: View {
                         .frame(height: 300)
                         .padding([.top, .bottom], 20)
                     
+                    VStack(spacing: 20) {
+                        Picker("Temperature", selection: $isHot) {
+                            Text("Hot").tag(true)
+                            Text("Cold").tag(false)
+                        }
+                        .pickerStyle(.segmented)
+                        
+                        Picker("Size", selection: $isRegular) {
+                            Text("Regular").tag(true)
+                            Text("Large").tag(false)
+                        }
+                        .pickerStyle(.segmented)
+                    }
+                    .padding()
+                    
                     VStack {
                         ScrollView(.vertical) {
                             ForEach(drink.ingredients, id: \.name) { ingredient in
                                 HStack {
                                     Text(ingredient.name)
                                     Spacer()
-                                    Text(ingredient.amount)
+                                    if isHot {
+                                        if isRegular {
+                                            Text(ingredient.hotRegular)
+                                        } else {
+                                            Text(ingredient.hotLarge)
+                                        }
+                                    } else {
+                                        if isRegular {
+                                            Text(ingredient.coldRegular)
+                                        } else {
+                                            Text(ingredient.coldLarge)
+                                        }
+                                    }
                                 }.padding([.leading, .bottom, .trailing])
                             }
                         }

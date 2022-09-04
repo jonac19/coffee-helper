@@ -31,9 +31,11 @@ struct GroupView: View {
             if groupSelection == "Coffee" {
                 CategoryView(group: sproModel.groups[0])
             } else if groupSelection == "Tea" {
-                CategoryView(group: sproModel.groups[1])
+                CategoryView(group: sproModel.groups[0])
+//                CategoryView(group: sproModel.groups[1])
             } else if groupSelection == "Food" {
-                CategoryView(group: sproModel.groups[2])
+                CategoryView(group: sproModel.groups[0])
+//                CategoryView(group: sproModel.groups[2])
             } else {
                 CategoryView(group: sproModel.groups[0])
             }
