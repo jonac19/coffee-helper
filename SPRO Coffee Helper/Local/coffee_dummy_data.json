@@ -11,7 +11,10 @@
                     "ingredients": [
                         {
                             "name": "Dark Chocolate",
-                            "amount": "35/45 grams"
+                            "hotRegular": "35 grams",
+                            "hotLarge": "45 grams",
+                            "coldRegular": "35 grams",
+                            "coldLarge": "45 grams"
                         }
                     ]
                 },
@@ -22,7 +25,11 @@
                     "ingredients": [
                         {
                             "name": "Dark Chocolate",
-                            "amount": "35/45 grams"
+                            "hotRegular": "35 grams",
+                            "hotLarge": "45 grams",
+                            "coldRegular": "35 grams",
+                            "coldLarge": "45 grams"
+                            
                         }
                     ]
                 },
@@ -33,18 +40,10 @@
                     "ingredients": [
                         {
                             "name": "Chai Concentrate",
-                            "amount": "70/100 grams"
-                        }
-                    ]
-                },
-                {
-                    "name": "Chai (Iced)",
-                    "type": "Other",
-                    "img": "island_hop",
-                    "ingredients": [
-                        {
-                            "name": "Chai Concentrate",
-                            "amount": "60/90 grams"
+                            "hotRegular": "70 grams",
+                            "hotLarge": "100 grams",
+                            "coldRegular": "60 grams",
+                            "coldLarge": "90 grams"
                         }
                     ]
                 }
@@ -60,7 +59,10 @@
                     "ingredients": [
                         {
                             "name": "Spice Islands Mix",
-                            "amount": "1/1.5 scoops"
+                            "hotRegular": "25 grams",
+                            "hotLarge": "33 grams",
+                            "coldRegular": "25 grams",
+                            "coldLarge": "33 grams"
                         }
                     ]
                 },
@@ -71,7 +73,10 @@
                     "ingredients": [
                         {
                             "name": "V for Velvet Mix",
-                            "amount": "1/1.5 scoops"
+                            "hotRegular": "25 grams",
+                            "hotLarge": "33 grams",
+                            "coldRegular": "25 grams",
+                            "coldLarge": "33 grams"
                         }
                     ]
                 },
@@ -82,11 +87,17 @@
                     "ingredients": [
                         {
                             "name": "Honey",
-                            "amount": "25/33 grams"
+                            "hotRegular": "25 grams",
+                            "hotLarge": "33 grams",
+                            "coldRegular": "25 grams",
+                            "coldLarge": "33 grams"
                         },
                         {
                             "name": "Orange Extract",
-                            "amount": "3/4 pipettes"
+                            "hotRegular": "3 pipettes",
+                            "hotLarge": "4 pipettes",
+                            "coldRegular": "3 pipettes",
+                            "coldLarge": "4 pipettes"
                         }
                     ]
                 },
@@ -97,7 +108,10 @@
                     "ingredients": [
                         {
                             "name": "Dark Chocolate",
-                            "amount": "25/33 grams"
+                            "hotRegular": "25 grams",
+                            "hotLarge": "33 grams",
+                            "coldRegular": "25 grams",
+                            "coldLarge": "33 grams"
                         }
                     ]
                 },
@@ -108,7 +122,10 @@
                     "ingredients": [
                         {
                             "name": "Honey",
-                            "amount": "25/33 grams"
+                            "hotRegular": "25 grams",
+                            "hotLarge": "33 grams",
+                            "coldRegular": "25 grams",
+                            "coldLarge": "33 grams"
                         }
                     ]
                 },
@@ -119,7 +136,10 @@
                     "ingredients": [
                         {
                             "name": "White Chocolate",
-                            "amount": "25/33 grams"
+                            "hotRegular": "25 grams",
+                            "hotLarge": "33 grams",
+                            "coldRegular": "25 grams",
+                            "coldLarge": "33 grams"
                         }
                     ]
                 }
@@ -135,15 +155,24 @@
                     "ingredients": [
                         {
                             "name": "Agave",
-                            "amount": "5/8 grams"
+                            "hotRegular": "5 grams",
+                            "hotLarge": "8 grams",
+                            "coldRegular": "5 grams",
+                            "coldLarge": "8 grams"
                         },
                         {
                             "name": "Rose Syrup",
-                            "amount": "20/33 grams"
+                            "hotRegular": "20 grams",
+                            "hotLarge": "33 grams",
+                            "coldRegular": "20 grams",
+                            "coldLarge": "33 grams"
                         },
                         {
                             "name": "Smoke Extract",
-                            "amount": "1/2 pipettes"
+                            "hotRegular": "1 pipette",
+                            "hotLarge": "2 pipettes",
+                            "coldRegular": "1 pipette",
+                            "coldLarge": "2 pipettes"
                         }
                     ]
                 },
@@ -154,11 +183,17 @@
                     "ingredients": [
                         {
                             "name": "Rose Syrup",
-                            "amount": "25/35 grams"
+                            "hotRegular": "25 grams",
+                            "hotLarge": "35 grams",
+                            "coldRegular": "25 grams",
+                            "coldLarge": "35 grams"
                         },
                         {
                             "name": "Cardamom",
-                            "amount": "0.5/1 scoops"
+                            "hotRegular": "5 grams",
+                            "hotLarge": "8 grams",
+                            "coldRegular": "5 grams",
+                            "coldLarge": "8 grams"
                         }
                     ]
                 },
@@ -169,8 +204,11 @@
                     "ingredients": [
                         {
                             "name": "Island Hop Mix",
-                            "amount": "0.5/1 scoops grams"
-                        },
+                            "hotRegular": "25 grams",
+                            "hotLarge": "33 grams",
+                            "coldRegular": "25 grams",
+                            "coldLarge": "33 grams"
+                        }
                     ]
                 },
                 {
@@ -180,11 +218,17 @@
                     "ingredients": [
                         {
                             "name": "Black Currant Syrup",
-                            "amount": "25/35 grams"
+                            "hotRegular": "25 grams",
+                            "hotLarge": "35 grams",
+                            "coldRegular": "25 grams",
+                            "coldLarge": "35 grams"
                         },
                         {
                             "name": "Thyme",
-                            "amount": "2/4 sprigs"
+                            "hotRegular": "2 sprigs",
+                            "hotLarge": "4 sprigs",
+                            "coldRegular": "2 sprigs",
+                            "coldLarge": "4 sprigs"
                         }
                     ]
                 },
@@ -195,15 +239,24 @@
                     "ingredients": [
                         {
                             "name": "Yuzu",
-                            "amount": "35/50 grams"
+                            "hotRegular": "35 grams",
+                            "hotLarge": "50 grams",
+                            "coldRegular": "35 grams",
+                            "coldLarge": "50 grams"
                         },
                         {
                             "name": "Sansho Pepper",
-                            "amount": "3/5 shakes"
+                            "hotRegular": "3 shakes",
+                            "hotLarge": "5 shakes",
+                            "coldRegular": "3 shakes",
+                            "coldLarge": "5 shakes"
                         },
                         {
-                            "name": "Yuzu Dust",
-                            "amount": "3/5 shakes"
+                            "name": "Gold Dust",
+                            "hotRegular": "3 shakes",
+                            "hotLarge": "5 shakes",
+                            "coldRegular": "3 shakes",
+                            "coldLarge": "5 shakes"
                         }
                     ]
                 },
@@ -214,11 +267,17 @@
                     "ingredients": [
                         {
                             "name": "Honey",
-                            "amount": "15/25 grams"
+                            "hotRegular": "15 grams",
+                            "hotLarge": "25 grams",
+                            "coldRegular": "15 grams",
+                            "coldLarge": "25 grams"
                         },
                         {
                             "name": "Charcoal",
-                            "amount": "1/1.5 scoops"
+                            "hotRegular": "10 grams",
+                            "hotLarge": "15 grams",
+                            "coldRegular": "10 grams",
+                            "coldLarge": "15 grams"
                         }
                     ]
                 },
@@ -229,11 +288,17 @@
                     "ingredients": [
                         {
                             "name": "Honey",
-                            "amount": "25/35 grams"
+                            "hotRegular": "25 grams",
+                            "hotLarge": "35 grams",
+                            "coldRegular": "25 grams",
+                            "coldLarge": "35 grams"
                         },
                         {
                             "name": "Tumeric/Ginger",
-                            "amount": "1/1.5 scoops"
+                            "hotRegular": "25 grams",
+                            "hotLarge": "33 grams",
+                            "coldRegular": "25 grams",
+                            "coldLarge": "33 grams"
                         }
                     ]
                 },
@@ -244,11 +309,17 @@
                     "ingredients": [
                         {
                             "name": "Dark Muscovado Sugar",
-                            "amount": "1/1.5 scoops"
+                            "hotRegular": "10 grams",
+                            "hotLarge": "15 grams",
+                            "coldRegular": "10 grams",
+                            "coldLarge": "15 grams"
                         },
                         {
                             "name": "Vanilla Extract",
-                            "amount": "1/1.5 pipettes"
+                            "hotRegular": "3 pipettes",
+                            "hotLarge": "4 pipettes",
+                            "coldRegular": "3 pipettes",
+                            "coldLarge": "4 pipettes"
                         }
                     ]
                 },
@@ -259,11 +330,17 @@
                     "ingredients": [
                         {
                             "name": "Mardi Gras Concentrate",
-                            "amount": "70/100 grams"
+                            "hotRegular": "N/A",
+                            "hotLarge": "N/A",
+                            "coldRegular": "70 grams",
+                            "coldLarge": "100 grams"
                         },
                         {
                             "name": "Simple Syrup",
-                            "amount": "25/33 grams"
+                            "hotRegular": "25 grams",
+                            "hotLarge": "33 grams",
+                            "coldRegular": "25 grams",
+                            "coldLarge": "33 grams"
                         }
                     ]
                 },
@@ -274,7 +351,10 @@
                     "ingredients": [
                         {
                             "name": "Rose Syrup",
-                            "amount": "25/33 grams"
+                            "hotRegular": "25 grams",
+                            "hotLarge": "33 grams",
+                            "coldRegular": "25 grams",
+                            "coldLarge": "33 grams"
                         }
                     ]
                 },
@@ -285,7 +365,10 @@
                     "ingredients": [
                         {
                             "name": "Simple Syrup",
-                            "amount": "15/25 grams"
+                            "hotRegular": "15 grams",
+                            "hotLarge": "25 grams",
+                            "coldRegular": "15 grams",
+                            "coldLarge": "25 grams"
                         }
                     ]
                 }
@@ -301,19 +384,31 @@
                     "ingredients": [
                         {
                             "name": "Cold Brew",
-                            "amount": "120/220 grams"
+                            "hotRegular": "N/A",
+                            "hotLarge": "N/A",
+                            "coldRegular": "120 grams",
+                            "coldLarge": "220 grams"
                         },
                         {
                             "name": "Sparkling Water",
-                            "amount": "100/166 grams"
+                            "hotRegular": "N/A",
+                            "hotLarge": "N/A",
+                            "coldRegular": "100 grams",
+                            "coldLarge": "166 grams"
                         },
                         {
                             "name": "Elderflower",
-                            "amount": "23/38 grams"
+                            "hotRegular": "N/A",
+                            "hotLarge": "N/A",
+                            "coldRegular": "23 grams",
+                            "coldLarge": "38 grams"
                         },
                         {
                             "name": "Grapefruit Bitter",
-                            "amount": "6/10 grams"
+                            "hotRegular": "N/A",
+                            "hotLarge": "N/A",
+                            "coldRegular": "6 grams",
+                            "coldLarge": "10 grams"
                         }
                     ]
                 },
@@ -324,23 +419,38 @@
                     "ingredients": [
                         {
                             "name": "Cold Brew",
-                            "amount": "185/308 grams"
+                            "hotRegular": "N/A",
+                            "hotLarge": "N/A",
+                            "coldRegular": "185 grams",
+                            "coldLarge": "308 grams"
                         },
                         {
                             "name": "Gum Syrup",
-                            "amount": "15/25 grams"
+                            "hotRegular": "N/A",
+                            "hotLarge": "N/A",
+                            "coldRegular": "15 grams",
+                            "coldLarge": "25 grams"
                         },
                         {
                             "name": "Orange Blossom",
-                            "amount": "5/9 grams"
+                            "hotRegular": "N/A",
+                            "hotLarge": "N/A",
+                            "coldRegular": "5 grams",
+                            "coldLarge": "9 grams"
                         },
                         {
                             "name": "Orange Peel",
-                            "amount": "1 peel"
+                            "hotRegular": "N/A",
+                            "hotLarge": "N/A",
+                            "coldRegular": "1 peel",
+                            "coldLarge": "2 peels"
                         },
                         {
                             "name": "Luxardo Cherry",
-                            "amount": "1/2 cherries"
+                            "hotRegular": "N/A",
+                            "hotLarge": "N/A",
+                            "coldRegular": "1 cherry",
+                            "coldLarge": "2 cherries"
                         }
                     ]
                 },
@@ -351,19 +461,31 @@
                     "ingredients": [
                         {
                             "name": "Cold Brew",
-                            "amount": "240/400 grams"
+                            "hotRegular": "N/A",
+                            "hotLarge": "N/A",
+                            "coldRegular": "240 grams",
+                            "coldLarge": "400 grams"
                         },
                         {
                             "name": "Frozen Berries",
-                            "amount": "6/8 berries"
+                            "hotRegular": "N/A",
+                            "hotLarge": "N/A",
+                            "coldRegular": "6 berries",
+                            "coldLarge": "8 berries"
                         },
                         {
                             "name": "Peach Bitter",
-                            "amount": "20/33 grams"
+                            "hotRegular": "N/A",
+                            "hotLarge": "N/A",
+                            "coldRegular": "20 grams",
+                            "coldLarge": "33 grams"
                         },
                         {
                             "name": "Raspberry Gum",
-                            "amount": "25/40 grams"
+                            "hotRegular": "N/A",
+                            "hotLarge": "N/A",
+                            "coldRegular": "25 grams",
+                            "coldLarge": "40 grams"
                         }
                     ]
                 },
@@ -374,23 +496,38 @@
                     "ingredients": [
                         {
                             "name": "Cherry Blossom Tea",
-                            "amount": "185/308 grams"
+                            "hotRegular": "N/A",
+                            "hotLarge": "N/A",
+                            "coldRegular": "185 grams",
+                            "coldLarge": "308 grams"
                         },
                         {
                             "name": "Strawberry",
-                            "amount": "1/2 strawberries"
+                            "hotRegular": "N/A",
+                            "hotLarge": "N/A",
+                            "coldRegular": "1 strawberry",
+                            "coldLarge": "2 strawberries"
                         },
                         {
                             "name": "Mint Leaf",
-                            "amount": "3/5 leaves"
+                            "hotRegular": "N/A",
+                            "hotLarge": "N/A",
+                            "coldRegular": "3 leaves",
+                            "coldLarge": "5 leaves"
                         },
                         {
                             "name": "Honey",
-                            "amount": "25/40 grams"
+                            "hotRegular": "N/A",
+                            "hotLarge": "N/A",
+                            "coldRegular": "25 grams",
+                            "coldLarge": "40 grams"
                         },
                         {
                             "name": "Rhubarb",
-                            "amount": "7/11 grams"
+                            "hotRegular": "N/A",
+                            "hotLarge": "N/A",
+                            "coldRegular": "7 grams",
+                            "coldLarge": "11 grams"
                         }
                     ]
                 },
@@ -401,26 +538,17 @@
                     "ingredients": [
                         {
                             "name": "Fifty Shades Tea",
-                            "amount": "225/310 grams"
+                            "hotRegular": "225",
+                            "hotLarge": "310",
+                            "coldRegular": "185 grams",
+                            "coldLarge": "245 grams"
                         },
                         {
                             "name": "Evaporated Milk",
-                            "amount": "55/90 grams"
-                        }
-                    ]
-                },
-                {
-                    "name": "Fifty Shades (Iced)",
-                    "type": "Tea",
-                    "img": "island_hop",
-                    "ingredients": [
-                        {
-                            "name": "Fifty Shades Tea",
-                            "amount": "185/245 grams"
-                        },
-                        {
-                            "name": "Evaporated Milk",
-                            "amount": "45/65 grams"
+                            "hotRegular": "55 grams",
+                            "hotLarge": "90 grams",
+                            "coldRegular": "45 grams",
+                            "coldLarge": "65 grams"
                         }
                     ]
                 },
@@ -431,26 +559,17 @@
                     "ingredients": [
                         {
                             "name": "Hong Kong Milk Tea",
-                            "amount": "110/175 grams"
+                            "hotRegular": "110 grams",
+                            "hotLarge": "175 grams",
+                            "coldRegular": "100 grams",
+                            "coldLarge": "145 grams"
                         },
                         {
                             "name": "Evaporated Milk",
-                            "amount": "40/75 grams"
-                        }
-                    ]
-                },
-                {
-                    "name": "Hong Kong Milk Tea (Iced)",
-                    "type": "Tea",
-                    "img": "island_hop",
-                    "ingredients": [
-                        {
-                            "name": "Hong Kong Milk Tea",
-                            "amount": "100/145 grams"
-                        },
-                        {
-                            "name": "Evaporated Milk",
-                            "amount": "50/60 grams"
+                            "hotRegular": "40 grams",
+                            "hotLarge": "75 grams",
+                            "coldRegular": "50 grams",
+                            "coldLarge": "60 grams"
                         }
                     ]
                 }
@@ -466,15 +585,24 @@
                     "ingredients": [
                         {
                             "name": "Ice",
-                            "amount": "270 grams"
+                            "hotRegular": "N/A",
+                            "hotLarge": "N/A",
+                            "coldRegular": "N/A",
+                            "coldLarge": "270 grams"
                         },
                         {
                             "name": "Peanut Butter",
-                            "amount": "35 grams"
+                            "hotRegular": "N/A",
+                            "hotLarge": "N/A",
+                            "coldRegular": "N/A",
+                            "coldLarge": "35 grams"
                         },
                         {
                             "name": "Banana",
-                            "amount": "1 banana"
+                            "hotRegular": "N/A",
+                            "hotLarge": "N/A",
+                            "coldRegular": "N/A",
+                            "coldLarge": "1 banana"
                         }
                     ]
                 },
@@ -485,31 +613,52 @@
                     "ingredients": [
                         {
                             "name": "Ice",
-                            "amount": "140 grams"
+                            "hotRegular": "N/A",
+                            "hotLarge": "N/A",
+                            "coldRegular": "N/A",
+                            "coldLarge": "140 grams"
                         },
                         {
                             "name": "Frozen Pineapple",
-                            "amount": "140 grams"
+                            "hotRegular": "N/A",
+                            "hotLarge": "N/A",
+                            "coldRegular": "N/A",
+                            "coldLarge": "140 grams"
                         },
                         {
                             "name": "Power Greens",
-                            "amount": "50 grams"
+                            "hotRegular": "N/A",
+                            "hotLarge": "N/A",
+                            "coldRegular": "N/A",
+                            "coldLarge": "50 grams"
                         },
                         {
                             "name": "Banana",
-                            "amount": "1 banana"
+                            "hotRegular": "N/A",
+                            "hotLarge": "N/A",
+                            "coldRegular": "N/A",
+                            "coldLarge": "1 banana"
                         },
                         {
                             "name": "Honey",
-                            "amount": "25 grams"
+                            "hotRegular": "N/A",
+                            "hotLarge": "N/A",
+                            "coldRegular": "N/A",
+                            "coldLarge": "25 grams"
                         },
                         {
                             "name": "Coconut Milk",
-                            "amount": "40 grams"
+                            "hotRegular": "N/A",
+                            "hotLarge": "N/A",
+                            "coldRegular": "N/A",
+                            "coldLarge": "40 grams"
                         },
                         {
                             "name": "Coconut Water",
-                            "amount": "100 grams"
+                            "hotRegular": "N/A",
+                            "hotLarge": "N/A",
+                            "coldRegular": "N/A",
+                            "coldLarge": "100 grams"
                         }
                     ]
                 },
@@ -520,23 +669,38 @@
                     "ingredients": [
                         {
                             "name": "Ice",
-                            "amount": "140 grams"
+                            "hotRegular": "N/A",
+                            "hotLarge": "N/A",
+                            "coldRegular": "N/A",
+                            "coldLarge": "140 grams"
                         },
                         {
                             "name": "Frozen Berries",
-                            "amount": "140 grams"
+                            "hotRegular": "N/A",
+                            "hotLarge": "N/A",
+                            "coldRegular": "N/A",
+                            "coldLarge": "140 grams"
                         },
                         {
                             "name": "Banana",
-                            "amount": "1 banana"
+                            "hotRegular": "N/A",
+                            "hotLarge": "N/A",
+                            "coldRegular": "N/A",
+                            "coldLarge": "1 banana"
                         },
                         {
                             "name": "Honey",
-                            "amount": "25 grams"
+                            "hotRegular": "N/A",
+                            "hotLarge": "N/A",
+                            "coldRegular": "N/A",
+                            "coldLarge": "25 grams"
                         },
                         {
                             "name": "Cherry Blossom Tea",
-                            "amount": "140 grams"
+                            "hotRegular": "N/A",
+                            "hotLarge": "N/A",
+                            "coldRegular": "N/A",
+                            "coldLarge": "140 grams"
                         }
                     ]
                 }

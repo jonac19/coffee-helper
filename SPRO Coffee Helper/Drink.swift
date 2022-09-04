@@ -26,6 +26,6 @@ struct Drink: Codable, Identifiable {
         for _ in 1...2 {
             dummyIngredients.append(Ingredient.dummyIngredient())
         }
-        return Drink(name: "Drink Name", type: "Drink Type", img: "island_hop", ingredients: dummyIngredients)
+        return Drink(name: "Drink Name", type: "Drink Type", img: "mardi_gras", ingredients: dummyIngredients)
     }
 }
