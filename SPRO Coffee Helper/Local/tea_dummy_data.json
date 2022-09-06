@@ -11,30 +11,24 @@
                     "ingredients": [
                         {
                             "name": "English Breakfast Tea Leaves",
-                            "amount": "30/60 grams"
+                            "hotRegular": "30 grams",
+                            "hotLarge": "60 grams",
+                            "coldRegular": "40 grams",
+                            "coldLarge": "70 grams"
                         },
                         {
                             "name": "Water",
-                            "amount": "1/2 pumps"
-                        }
-                    ]
-                },
-                {
-                    "name": "English Breakfast (Iced)",
-                    "type": "Tea",
-                    "img": "island_hop",
-                    "ingredients": [
-                        {
-                            "name": "English Breakfast Tea Leaves",
-                            "amount": "40/70 grams"
-                        },
-                        {
-                            "name": "Water",
-                            "amount": "1/2 pumps"
+                            "hotRegular": "175 grams",
+                            "hotLarge": "350 grams",
+                            "coldRegular": "175 grams",
+                            "coldLarge": "350 grams"
                         },
                         {
                             "name": "Ice",
-                            "amount": "100/200 grams"
+                            "hotRegular": "N/A",
+                            "hotLarge": "N/A",
+                            "coldRegular": "100 grams",
+                            "coldLarge": "200 grams"
                         }
                     ]
                 },
@@ -45,30 +39,24 @@
                     "ingredients": [
                         {
                             "name": "Earl Grey Tea Leaves",
-                            "amount": "40/70 grams"
+                            "hotRegular": "40 grams",
+                            "hotLarge": "70 grams",
+                            "coldRegular": "40 grams",
+                            "coldLarge": "70 grams"
                         },
                         {
                             "name": "Water",
-                            "amount": "1/2 pumps"
-                        }
-                    ]
-                },
-                {
-                    "name": "Earl Grey (Iced)",
-                    "type": "Tea",
-                    "img": "island_hop",
-                    "ingredients": [
-                        {
-                            "name": "Earl Grey Tea Leaves",
-                            "amount": "40/70 grams"
-                        },
-                        {
-                            "name": "Water",
-                            "amount": "1/2 pumps"
+                            "hotRegular": "175 grams",
+                            "hotLarge": "350 grams",
+                            "coldRegular": "175 grams",
+                            "coldLarge": "350 grams"
                         },
                         {
                             "name": "Ice",
-                            "amount": "100/200 grams"
+                            "hotRegular": "N/A",
+                            "hotLarge": "N/A",
+                            "coldRegular": "100 grams",
+                            "coldLarge": "200 grams"
                         }
                     ]
                 }
@@ -84,30 +72,24 @@
                     "ingredients": [
                         {
                             "name": "Genmaicha Tea Leaves",
-                            "amount": "45/75 grams"
+                            "hotRegular": "45 grams",
+                            "hotLarge": "75 grams",
+                            "coldRegular": "65 grams",
+                            "coldLarge": "85 grams"
                         },
                         {
                             "name": "Water",
-                            "amount": "1/2 pumps"
-                        }
-                    ]
-                },
-                {
-                    "name": "Genmaicha (Iced)",
-                    "type": "Tea",
-                    "img": "island_hop",
-                    "ingredients": [
-                        {
-                            "name": "Genmaicha Tea Leaves",
-                            "amount": "55/85 grams"
-                        },
-                        {
-                            "name": "Water",
-                            "amount": "1/2 pumps"
+                            "hotRegular": "175 grams",
+                            "hotLarge": "350 grams",
+                            "coldRegular": "175 grams",
+                            "coldLarge": "350 grams"
                         },
                         {
                             "name": "Ice",
-                            "amount": "100/200 grams"
+                            "hotRegular": "N/A",
+                            "hotLarge": "N/A",
+                            "coldRegular": "100 grams",
+                            "coldLarge": "200 grams"
                         }
                     ]
                 },
@@ -118,11 +100,24 @@
                     "ingredients": [
                         {
                             "name": "Cherry Blossom Tea Leaves",
-                            "amount": "30/60 grams"
+                            "hotRegular": "30 grams",
+                            "hotLarge": "60 grams",
+                            "coldRegular": "175 grams",
+                            "coldLarge": "350 grams"
                         },
                         {
                             "name": "Water",
-                            "amount": "1/2 pumps"
+                            "hotRegular": "175 grams",
+                            "hotLarge": "350 grams",
+                            "coldRegular": "N/A",
+                            "coldLarge": "N/A"
+                        },
+                        {
+                            "name": "Ice",
+                            "hotRegular": "N/A",
+                            "hotLarge": "N/A",
+                            "coldRegular": "100 grams",
+                            "coldLarge": "200 grams"
                         }
                     ]
                 }
@@ -138,30 +133,24 @@
                     "ingredients": [
                         {
                             "name": "Peppermint Tea Leaves",
-                            "amount": "25/55 grams"
+                            "hotRegular": "25 grams",
+                            "hotLarge": "55 grams",
+                            "coldRegular": "35 grams",
+                            "coldLarge": "65 grams"
                         },
                         {
                             "name": "Water",
-                            "amount": "1/2 pumps"
-                        }
-                    ]
-                },
-                {
-                    "name": "Peppermint (Iced)",
-                    "type": "Tea",
-                    "img": "island_hop",
-                    "ingredients": [
-                        {
-                            "name": "Peppermint Tea Leaves",
-                            "amount": "35/65 grams"
-                        },
-                        {
-                            "name": "Water",
-                            "amount": "1/2 pumps"
+                            "hotRegular": "175 grams",
+                            "hotLarge": "350 grams",
+                            "coldRegular": "175 grams",
+                            "coldLarge": "350 grams"
                         },
                         {
                             "name": "Ice",
-                            "amount": "100/200 grams"
+                            "hotRegular": "N/A",
+                            "hotLarge": "N/A",
+                            "coldRegular": "100 grams",
+                            "coldLarge": "200 grams"
                         }
                     ]
                 }

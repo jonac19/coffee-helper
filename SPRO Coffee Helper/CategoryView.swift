@@ -35,30 +35,31 @@ struct CategoryView: View {
                 .padding([.leading, .trailing], 20)
 
                 // Category navbar
-                ScrollView(.horizontal, showsIndicators: false) {
-                    HStack(spacing: 25) {
-                        ForEach(group.categories) { category in
-                            Button(category.name) {
-                                if visibleCategories.contains(category) {
-                                    visibleCategories.remove(category)
-                                } else {
-                                    visibleCategories.insert(category)
+                ScrollViewReader { proxy in
+                    ScrollView(.horizontal, showsIndicators: false) {
+                        HStack(spacing: 25) {
+                            ForEach(group.categories) { category in
+                                Button(category.name) {
+                                    withAnimation {
+                                        proxy.scrollTo("ID " + category.name, anchor: .top)
+                                    }
                                 }
+                                .foregroundColor(.white)
+                                .font(.system(size: 18))
+
                             }
-                            .foregroundColor(.white)
-                            .font(.system(size: 18))
-                            
                         }
+                        .padding(EdgeInsets(top: 15, leading: 20, bottom: 15, trailing: 20))
                     }
-                    .padding(EdgeInsets(top: 15, leading: 20, bottom: 15, trailing: 20))
-                }
-                .background(Color(red: 0.9, green: 0.10, blue: 0.02))
-                
-                // Category list
-                List {
-                    ForEach(group.categories) { category in
-                        if visibleCategories.contains(category) {
-                            Section(header: Text(category.name).foregroundColor(Color(red: 0.16, green: 0.09, blue: 0.07)))
+                    .background(Color(red: 0.9, green: 0.10, blue: 0.02))
+                    
+                    // Category list
+                    List {
+                        ForEach(group.categories) { category in
+                            Section(header: Text(category.name)
+                                .font(.system(size: 20, weight: .semibold))
+                                .foregroundColor(.black)
+                            )
                             {
                                 ForEach(category.drinks) { drink in
                                     NavigationLink(
@@ -66,10 +67,13 @@ struct CategoryView: View {
                                     )
                                 }
                             }
+                            .textCase(nil)
+                            .id("ID " + category.name)
                         }
                     }
+                    .listStyle(InsetGroupedListStyle())
+                    .frame(height: .infinity)
                 }
-                .frame(height: .infinity)
             }
             .navigationBarTitle("Back", displayMode: .inline)
             .navigationBarHidden(true)
@@ -82,3 +86,4 @@ struct CategoryView_Previews: PreviewProvider {
         GroupView()
     }
 }
+
