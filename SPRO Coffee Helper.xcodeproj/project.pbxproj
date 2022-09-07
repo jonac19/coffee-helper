@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DF6222B728AF3C1200BFCA0D /* food_dummy_data.json in Resources */ = {isa = PBXBuildFile; fileRef = DF6222B628AF3C1200BFCA0D /* food_dummy_data.json */; };
 		DFBE6D8C289B9C1A00D69360 /* SPRO_Coffee_HelperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBE6D8B289B9C1A00D69360 /* SPRO_Coffee_HelperApp.swift */; };
 		DFBE6D8E289B9C1A00D69360 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBE6D8D289B9C1A00D69360 /* ContentView.swift */; };
 		DFBE6D90289B9C1B00D69360 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFBE6D8F289B9C1B00D69360 /* Assets.xcassets */; };
@@ -24,6 +23,7 @@
 		DFE23ECF28C8318700DF413B /* CategoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE23ECE28C8318700DF413B /* CategoryListView.swift */; };
 		DFE23ED128C8F41700DF413B /* DrinkIngredientListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE23ED028C8F41700DF413B /* DrinkIngredientListView.swift */; };
 		DFE23ED328C8F59800DF413B /* DrinkPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE23ED228C8F59800DF413B /* DrinkPickerView.swift */; };
+		DFE23ED528C9598B00DF413B /* smoothie_dummy_data.json in Resources */ = {isa = PBXBuildFile; fileRef = DFE23ED428C9598B00DF413B /* smoothie_dummy_data.json */; };
 		DFEDF0CF28A5C0A800A9BD6B /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEDF0CE28A5C0A800A9BD6B /* CategoryView.swift */; };
 		DFEDF0D128A6C30F00A9BD6B /* GroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEDF0D028A6C30F00A9BD6B /* GroupView.swift */; };
 		DFEDF0DF28ACA9C300A9BD6B /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEDF0DE28ACA9C300A9BD6B /* Group.swift */; };
@@ -32,7 +32,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DF6222B628AF3C1200BFCA0D /* food_dummy_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = food_dummy_data.json; sourceTree = "<group>"; };
 		DFBE6D88289B9C1A00D69360 /* SPRO Coffee Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SPRO Coffee Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFBE6D8B289B9C1A00D69360 /* SPRO_Coffee_HelperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPRO_Coffee_HelperApp.swift; sourceTree = "<group>"; };
 		DFBE6D8D289B9C1A00D69360 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -50,6 +49,7 @@
 		DFE23ECE28C8318700DF413B /* CategoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryListView.swift; sourceTree = "<group>"; };
 		DFE23ED028C8F41700DF413B /* DrinkIngredientListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkIngredientListView.swift; sourceTree = "<group>"; };
 		DFE23ED228C8F59800DF413B /* DrinkPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkPickerView.swift; sourceTree = "<group>"; };
+		DFE23ED428C9598B00DF413B /* smoothie_dummy_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = smoothie_dummy_data.json; sourceTree = "<group>"; };
 		DFEDF0CE28A5C0A800A9BD6B /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 		DFEDF0D028A6C30F00A9BD6B /* GroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupView.swift; sourceTree = "<group>"; };
 		DFEDF0DE28ACA9C300A9BD6B /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
@@ -110,7 +110,7 @@
 			children = (
 				DFEDF0E028ACA9E600A9BD6B /* coffee_dummy_data.json */,
 				DFEDF0E228ACAACD00A9BD6B /* tea_dummy_data.json */,
-				DF6222B628AF3C1200BFCA0D /* food_dummy_data.json */,
+				DFE23ED428C9598B00DF413B /* smoothie_dummy_data.json */,
 			);
 			path = Local;
 			sourceTree = "<group>";
@@ -228,8 +228,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFEDF0E328ACAACD00A9BD6B /* tea_dummy_data.json in Resources */,
+				DFE23ED528C9598B00DF413B /* smoothie_dummy_data.json in Resources */,
 				DFEDF0E128ACA9E600A9BD6B /* coffee_dummy_data.json in Resources */,
-				DF6222B728AF3C1200BFCA0D /* food_dummy_data.json in Resources */,
 				DFBE6D93289B9C1B00D69360 /* Preview Assets.xcassets in Resources */,
 				DFBE6D90289B9C1B00D69360 /* Assets.xcassets in Resources */,
 			);

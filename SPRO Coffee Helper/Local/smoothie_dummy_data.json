@@ -1,0 +1,139 @@
+{
+    "name": "Smoothies",
+    "categories": [
+        {
+            "name": "Smoothies",
+            "drinks": [
+                {
+                    "name": "After School",
+                    "type": "Smoothie",
+                    "img": "island_hop",
+                    "properties": ["Cold Only", "Large Only"],
+                    "ingredients": [
+                        {
+                            "name": "Ice",
+                            "hotRegular": "",
+                            "hotLarge": "",
+                            "coldRegular": "",
+                            "coldLarge": "270 grams"
+                        },
+                        {
+                            "name": "Peanut Butter",
+                            "hotRegular": "",
+                            "hotLarge": "",
+                            "coldRegular": "",
+                            "coldLarge": "35 grams"
+                        },
+                        {
+                            "name": "Banana",
+                            "hotRegular": "",
+                            "hotLarge": "",
+                            "coldRegular": "",
+                            "coldLarge": "1 banana"
+                        }
+                    ]
+                },
+                {
+                    "name": "Urban Jungle",
+                    "type": "Smoothie",
+                    "img": "island_hop",
+                    "properties": ["Cold Only", "Large Only"],
+                    "ingredients": [
+                        {
+                            "name": "Ice",
+                            "hotRegular": "",
+                            "hotLarge": "",
+                            "coldRegular": "",
+                            "coldLarge": "140 grams"
+                        },
+                        {
+                            "name": "Frozen Pineapple",
+                            "hotRegular": "",
+                            "hotLarge": "",
+                            "coldRegular": "",
+                            "coldLarge": "140 grams"
+                        },
+                        {
+                            "name": "Power Greens",
+                            "hotRegular": "",
+                            "hotLarge": "",
+                            "coldRegular": "",
+                            "coldLarge": "50 grams"
+                        },
+                        {
+                            "name": "Banana",
+                            "hotRegular": "",
+                            "hotLarge": "",
+                            "coldRegular": "",
+                            "coldLarge": "1 banana"
+                        },
+                        {
+                            "name": "Honey",
+                            "hotRegular": "",
+                            "hotLarge": "",
+                            "coldRegular": "",
+                            "coldLarge": "25 grams"
+                        },
+                        {
+                            "name": "Coconut Milk",
+                            "hotRegular": "",
+                            "hotLarge": "",
+                            "coldRegular": "",
+                            "coldLarge": "40 grams"
+                        },
+                        {
+                            "name": "Coconut Water",
+                            "hotRegular": "",
+                            "hotLarge": "",
+                            "coldRegular": "",
+                            "coldLarge": "100 grams"
+                        }
+                    ]
+                },
+                {
+                    "name": "Super Fruit Smash",
+                    "type": "Smoothie",
+                    "img": "island_hop",
+                    "properties": ["Cold Only", "Large Only"],
+                    "ingredients": [
+                        {
+                            "name": "Ice",
+                            "hotRegular": "",
+                            "hotLarge": "",
+                            "coldRegular": "",
+                            "coldLarge": "140 grams"
+                        },
+                        {
+                            "name": "Frozen Berries",
+                            "hotRegular": "",
+                            "hotLarge": "",
+                            "coldRegular": "",
+                            "coldLarge": "140 grams"
+                        },
+                        {
+                            "name": "Banana",
+                            "hotRegular": "",
+                            "hotLarge": "",
+                            "coldRegular": "",
+                            "coldLarge": "1 banana"
+                        },
+                        {
+                            "name": "Honey",
+                            "hotRegular": "",
+                            "hotLarge": "",
+                            "coldRegular": "",
+                            "coldLarge": "25 grams"
+                        },
+                        {
+                            "name": "Cherry Blossom Tea",
+                            "hotRegular": "",
+                            "hotLarge": "",
+                            "coldRegular": "",
+                            "coldLarge": "140 grams"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
