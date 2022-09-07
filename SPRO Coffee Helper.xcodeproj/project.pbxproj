@@ -163,8 +163,8 @@
 			isa = PBXGroup;
 			children = (
 				DFBE6DEE289DB48B00D69360 /* DrinkView.swift */,
-				DFE23ED028C8F41700DF413B /* DrinkIngredientListView.swift */,
 				DFE23ED228C8F59800DF413B /* DrinkPickerView.swift */,
+				DFE23ED028C8F41700DF413B /* DrinkIngredientListView.swift */,
 			);
 			path = DrinkView;
 			sourceTree = "<group>";
