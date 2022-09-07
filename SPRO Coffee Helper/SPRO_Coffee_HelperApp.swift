@@ -11,7 +11,7 @@ import SwiftUI
 struct SPRO_Coffee_HelperApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            GroupView()
         }
     }
 }
