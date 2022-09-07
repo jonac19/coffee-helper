@@ -15,13 +15,18 @@ struct DrinkPickerView: View {
     var body: some View {
         VStack(spacing: 20) {
             Picker("Temperature", selection: $isHot) {
-                Text("Hot").tag(true)
+                if !drink.properties.contains("Cold Only") {
+                    Text("Hot").tag(true)
+                }
                 Text("Cold").tag(false)
+                
             }
             .pickerStyle(.segmented)
             
             Picker("Size", selection: $isRegular) {
-                Text("Regular").tag(true)
+                if !drink.properties.contains("Large Only") {
+                    Text("Regular").tag(true)
+                }
                 Text("Large").tag(false)
             }
             .pickerStyle(.segmented)

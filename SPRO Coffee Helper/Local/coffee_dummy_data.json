@@ -8,6 +8,7 @@
                     "name": "Mocha",
                     "type": "Espresso",
                     "img": "island_hop",
+                    "properties": [],
                     "ingredients": [
                         {
                             "name": "Dark Chocolate",
@@ -22,6 +23,7 @@
                     "name": "Hot Chocolate",
                     "type": "Other",
                     "img": "island_hop",
+                    "properties": [],
                     "ingredients": [
                         {
                             "name": "Dark Chocolate",
@@ -37,6 +39,7 @@
                     "name": "Chai",
                     "type": "Other",
                     "img": "island_hop",
+                    "properties": [],
                     "ingredients": [
                         {
                             "name": "Chai Concentrate",
@@ -56,6 +59,7 @@
                     "name": "Spice Islands",
                     "type": "Espresso",
                     "img": "island_hop",
+                    "properties": [],
                     "ingredients": [
                         {
                             "name": "Spice Islands Mix",
@@ -70,6 +74,7 @@
                     "name": "V for Velvet",
                     "type": "Espresso",
                     "img": "v_for_velvet",
+                    "properties": [],
                     "ingredients": [
                         {
                             "name": "V for Velvet Mix",
@@ -84,6 +89,7 @@
                     "name": "Orange Blossom",
                     "type": "Espresso",
                     "img": "island_hop",
+                    "properties": [],
                     "ingredients": [
                         {
                             "name": "Honey",
@@ -105,6 +111,7 @@
                     "name": "Coco De Mer",
                     "type": "Espresso",
                     "img": "island_hop",
+                    "properties": [],
                     "ingredients": [
                         {
                             "name": "Dark Chocolate",
@@ -119,6 +126,7 @@
                     "name": "Geisha",
                     "type": "Matcha",
                     "img": "island_hop",
+                    "properties": [],
                     "ingredients": [
                         {
                             "name": "Honey",
@@ -133,6 +141,7 @@
                     "name": "Shiro",
                     "type": "Matcha",
                     "img": "shiro",
+                    "properties": [],
                     "ingredients": [
                         {
                             "name": "White Chocolate",
@@ -152,6 +161,7 @@
                     "name": "Smoke & Mirror",
                     "type": "Espresso",
                     "img": "island_hop",
+                    "properties": [],
                     "ingredients": [
                         {
                             "name": "Agave",
@@ -180,6 +190,7 @@
                     "name": "Indian Summer",
                     "type": "Espresso",
                     "img": "island_hop",
+                    "properties": [],
                     "ingredients": [
                         {
                             "name": "Rose Syrup",
@@ -201,6 +212,7 @@
                     "name": "Island Hop",
                     "type": "Espresso",
                     "img": "island_hop",
+                    "properties": [],
                     "ingredients": [
                         {
                             "name": "Island Hop Mix",
@@ -215,6 +227,7 @@
                     "name": "Tea Thyme",
                     "type": "Espresso",
                     "img": "tea_thyme",
+                    "properties": [],
                     "ingredients": [
                         {
                             "name": "Black Currant Syrup",
@@ -236,6 +249,7 @@
                     "name": "Pixie Dust",
                     "type": "Espresso",
                     "img": "pixie_dust",
+                    "properties": [],
                     "ingredients": [
                         {
                             "name": "Yuzu",
@@ -264,6 +278,7 @@
                     "name": "Black Swan",
                     "type": "Espresso",
                     "img": "black_swan",
+                    "properties": [],
                     "ingredients": [
                         {
                             "name": "Honey",
@@ -285,6 +300,7 @@
                     "name": "Kat's Pajamas",
                     "type": "Espresso",
                     "img": "island_hop",
+                    "properties": [],
                     "ingredients": [
                         {
                             "name": "Honey",
@@ -306,6 +322,7 @@
                     "name": "Madagascar",
                     "type": "Espresso",
                     "img": "island_hop",
+                    "properties": [],
                     "ingredients": [
                         {
                             "name": "Dark Muscovado Sugar",
@@ -327,11 +344,12 @@
                     "name": "Mardi Gras",
                     "type": "Cold Brew",
                     "img": "mardi_gras",
+                    "properties": ["Cold Only"],
                     "ingredients": [
                         {
                             "name": "Mardi Gras Concentrate",
-                            "hotRegular": "N/A",
-                            "hotLarge": "N/A",
+                            "hotRegular": "",
+                            "hotLarge": "",
                             "coldRegular": "70 grams",
                             "coldLarge": "100 grams"
                         },
@@ -348,6 +366,7 @@
                     "name": "Tokyo Rose",
                     "type": "Matcha",
                     "img": "island_hop",
+                    "properties": [],
                     "ingredients": [
                         {
                             "name": "Rose Syrup",
@@ -362,6 +381,7 @@
                     "name": "Hojicha",
                     "type": "Hojicha",
                     "img": "island_hop",
+                    "properties": [],
                     "ingredients": [
                         {
                             "name": "Simple Syrup",
@@ -381,32 +401,33 @@
                     "name": "The Cool Hunter",
                     "type": "Cold Brew",
                     "img": "island_hop",
+                    "properties": ["Cold Only"],
                     "ingredients": [
                         {
                             "name": "Cold Brew",
-                            "hotRegular": "N/A",
-                            "hotLarge": "N/A",
+                            "hotRegular": "",
+                            "hotLarge": "",
                             "coldRegular": "120 grams",
                             "coldLarge": "220 grams"
                         },
                         {
                             "name": "Sparkling Water",
-                            "hotRegular": "N/A",
-                            "hotLarge": "N/A",
+                            "hotRegular": "",
+                            "hotLarge": "",
                             "coldRegular": "100 grams",
                             "coldLarge": "166 grams"
                         },
                         {
                             "name": "Elderflower",
-                            "hotRegular": "N/A",
-                            "hotLarge": "N/A",
+                            "hotRegular": "",
+                            "hotLarge": "",
                             "coldRegular": "23 grams",
                             "coldLarge": "38 grams"
                         },
                         {
                             "name": "Grapefruit Bitter",
-                            "hotRegular": "N/A",
-                            "hotLarge": "N/A",
+                            "hotRegular": "",
+                            "hotLarge": "",
                             "coldRegular": "6 grams",
                             "coldLarge": "10 grams"
                         }
@@ -416,39 +437,40 @@
                     "name": "Cold Fashion",
                     "type": "Cold Brew",
                     "img": "island_hop",
+                    "properties": ["Cold Only"],
                     "ingredients": [
                         {
                             "name": "Cold Brew",
-                            "hotRegular": "N/A",
-                            "hotLarge": "N/A",
+                            "hotRegular": "",
+                            "hotLarge": "",
                             "coldRegular": "185 grams",
                             "coldLarge": "308 grams"
                         },
                         {
                             "name": "Gum Syrup",
-                            "hotRegular": "N/A",
-                            "hotLarge": "N/A",
+                            "hotRegular": "",
+                            "hotLarge": "",
                             "coldRegular": "15 grams",
                             "coldLarge": "25 grams"
                         },
                         {
                             "name": "Orange Blossom",
-                            "hotRegular": "N/A",
-                            "hotLarge": "N/A",
+                            "hotRegular": "",
+                            "hotLarge": "",
                             "coldRegular": "5 grams",
                             "coldLarge": "9 grams"
                         },
                         {
                             "name": "Orange Peel",
-                            "hotRegular": "N/A",
-                            "hotLarge": "N/A",
+                            "hotRegular": "",
+                            "hotLarge": "",
                             "coldRegular": "1 peel",
                             "coldLarge": "2 peels"
                         },
                         {
                             "name": "Luxardo Cherry",
-                            "hotRegular": "N/A",
-                            "hotLarge": "N/A",
+                            "hotRegular": "",
+                            "hotLarge": "",
                             "coldRegular": "1 cherry",
                             "coldLarge": "2 cherries"
                         }
@@ -458,32 +480,33 @@
                     "name": "Sangria",
                     "type": "Cold Brew",
                     "img": "sangria",
+                    "properties": ["Cold Only"],
                     "ingredients": [
                         {
                             "name": "Cold Brew",
-                            "hotRegular": "N/A",
-                            "hotLarge": "N/A",
+                            "hotRegular": "",
+                            "hotLarge": "",
                             "coldRegular": "240 grams",
                             "coldLarge": "400 grams"
                         },
                         {
                             "name": "Frozen Berries",
-                            "hotRegular": "N/A",
-                            "hotLarge": "N/A",
+                            "hotRegular": "",
+                            "hotLarge": "",
                             "coldRegular": "6 berries",
                             "coldLarge": "8 berries"
                         },
                         {
                             "name": "Peach Bitter",
-                            "hotRegular": "N/A",
-                            "hotLarge": "N/A",
+                            "hotRegular": "",
+                            "hotLarge": "",
                             "coldRegular": "20 grams",
                             "coldLarge": "33 grams"
                         },
                         {
                             "name": "Raspberry Gum",
-                            "hotRegular": "N/A",
-                            "hotLarge": "N/A",
+                            "hotRegular": "",
+                            "hotLarge": "",
                             "coldRegular": "25 grams",
                             "coldLarge": "40 grams"
                         }
@@ -493,39 +516,40 @@
                     "name": "Strawberry Fields",
                     "type": "Tea",
                     "img": "island_hop",
+                    "properties": ["Cold Only"],
                     "ingredients": [
                         {
                             "name": "Cherry Blossom Tea",
-                            "hotRegular": "N/A",
-                            "hotLarge": "N/A",
+                            "hotRegular": "",
+                            "hotLarge": "",
                             "coldRegular": "185 grams",
                             "coldLarge": "308 grams"
                         },
                         {
                             "name": "Strawberry",
-                            "hotRegular": "N/A",
-                            "hotLarge": "N/A",
+                            "hotRegular": "",
+                            "hotLarge": "",
                             "coldRegular": "1 strawberry",
                             "coldLarge": "2 strawberries"
                         },
                         {
                             "name": "Mint Leaf",
-                            "hotRegular": "N/A",
-                            "hotLarge": "N/A",
+                            "hotRegular": "",
+                            "hotLarge": "",
                             "coldRegular": "3 leaves",
                             "coldLarge": "5 leaves"
                         },
                         {
                             "name": "Honey",
-                            "hotRegular": "N/A",
-                            "hotLarge": "N/A",
+                            "hotRegular": "",
+                            "hotLarge": "",
                             "coldRegular": "25 grams",
                             "coldLarge": "40 grams"
                         },
                         {
                             "name": "Rhubarb",
-                            "hotRegular": "N/A",
-                            "hotLarge": "N/A",
+                            "hotRegular": "",
+                            "hotLarge": "",
                             "coldRegular": "7 grams",
                             "coldLarge": "11 grams"
                         }
@@ -535,6 +559,7 @@
                     "name": "Fifty Shades",
                     "type": "Tea",
                     "img": "island_hop",
+                    "properties": [],
                     "ingredients": [
                         {
                             "name": "Fifty Shades Tea",
@@ -556,6 +581,7 @@
                     "name": "Hong Kong Milk Tea",
                     "type": "Tea",
                     "img": "island_hop",
+                    "properties": [],
                     "ingredients": [
                         {
                             "name": "Hong Kong Milk Tea",
@@ -582,26 +608,27 @@
                     "name": "After School",
                     "type": "Smoothie",
                     "img": "island_hop",
+                    "properties": ["Cold Only", "Large Only"],
                     "ingredients": [
                         {
                             "name": "Ice",
-                            "hotRegular": "N/A",
-                            "hotLarge": "N/A",
-                            "coldRegular": "N/A",
+                            "hotRegular": "",
+                            "hotLarge": "",
+                            "coldRegular": "",
                             "coldLarge": "270 grams"
                         },
                         {
                             "name": "Peanut Butter",
-                            "hotRegular": "N/A",
-                            "hotLarge": "N/A",
-                            "coldRegular": "N/A",
+                            "hotRegular": "",
+                            "hotLarge": "",
+                            "coldRegular": "",
                             "coldLarge": "35 grams"
                         },
                         {
                             "name": "Banana",
-                            "hotRegular": "N/A",
-                            "hotLarge": "N/A",
-                            "coldRegular": "N/A",
+                            "hotRegular": "",
+                            "hotLarge": "",
+                            "coldRegular": "",
                             "coldLarge": "1 banana"
                         }
                     ]
@@ -610,54 +637,55 @@
                     "name": "Urban Jungle",
                     "type": "Smoothie",
                     "img": "island_hop",
+                    "properties": ["Cold Only", "Large Only"],
                     "ingredients": [
                         {
                             "name": "Ice",
-                            "hotRegular": "N/A",
-                            "hotLarge": "N/A",
-                            "coldRegular": "N/A",
+                            "hotRegular": "",
+                            "hotLarge": "",
+                            "coldRegular": "",
                             "coldLarge": "140 grams"
                         },
                         {
                             "name": "Frozen Pineapple",
-                            "hotRegular": "N/A",
-                            "hotLarge": "N/A",
-                            "coldRegular": "N/A",
+                            "hotRegular": "",
+                            "hotLarge": "",
+                            "coldRegular": "",
                             "coldLarge": "140 grams"
                         },
                         {
                             "name": "Power Greens",
-                            "hotRegular": "N/A",
-                            "hotLarge": "N/A",
-                            "coldRegular": "N/A",
+                            "hotRegular": "",
+                            "hotLarge": "",
+                            "coldRegular": "",
                             "coldLarge": "50 grams"
                         },
                         {
                             "name": "Banana",
-                            "hotRegular": "N/A",
-                            "hotLarge": "N/A",
-                            "coldRegular": "N/A",
+                            "hotRegular": "",
+                            "hotLarge": "",
+                            "coldRegular": "",
                             "coldLarge": "1 banana"
                         },
                         {
                             "name": "Honey",
-                            "hotRegular": "N/A",
-                            "hotLarge": "N/A",
-                            "coldRegular": "N/A",
+                            "hotRegular": "",
+                            "hotLarge": "",
+                            "coldRegular": "",
                             "coldLarge": "25 grams"
                         },
                         {
                             "name": "Coconut Milk",
-                            "hotRegular": "N/A",
-                            "hotLarge": "N/A",
-                            "coldRegular": "N/A",
+                            "hotRegular": "",
+                            "hotLarge": "",
+                            "coldRegular": "",
                             "coldLarge": "40 grams"
                         },
                         {
                             "name": "Coconut Water",
-                            "hotRegular": "N/A",
-                            "hotLarge": "N/A",
-                            "coldRegular": "N/A",
+                            "hotRegular": "",
+                            "hotLarge": "",
+                            "coldRegular": "",
                             "coldLarge": "100 grams"
                         }
                     ]
@@ -666,40 +694,41 @@
                     "name": "Super Fruit Smash",
                     "type": "Smoothie",
                     "img": "island_hop",
+                    "properties": ["Cold Only", "Large Only"],
                     "ingredients": [
                         {
                             "name": "Ice",
-                            "hotRegular": "N/A",
-                            "hotLarge": "N/A",
-                            "coldRegular": "N/A",
+                            "hotRegular": "",
+                            "hotLarge": "",
+                            "coldRegular": "",
                             "coldLarge": "140 grams"
                         },
                         {
                             "name": "Frozen Berries",
-                            "hotRegular": "N/A",
-                            "hotLarge": "N/A",
-                            "coldRegular": "N/A",
+                            "hotRegular": "",
+                            "hotLarge": "",
+                            "coldRegular": "",
                             "coldLarge": "140 grams"
                         },
                         {
                             "name": "Banana",
-                            "hotRegular": "N/A",
-                            "hotLarge": "N/A",
-                            "coldRegular": "N/A",
+                            "hotRegular": "",
+                            "hotLarge": "",
+                            "coldRegular": "",
                             "coldLarge": "1 banana"
                         },
                         {
                             "name": "Honey",
-                            "hotRegular": "N/A",
-                            "hotLarge": "N/A",
-                            "coldRegular": "N/A",
+                            "hotRegular": "",
+                            "hotLarge": "",
+                            "coldRegular": "",
                             "coldLarge": "25 grams"
                         },
                         {
                             "name": "Cherry Blossom Tea",
-                            "hotRegular": "N/A",
-                            "hotLarge": "N/A",
-                            "coldRegular": "N/A",
+                            "hotRegular": "",
+                            "hotLarge": "",
+                            "coldRegular": "",
                             "coldLarge": "140 grams"
                         }
                     ]

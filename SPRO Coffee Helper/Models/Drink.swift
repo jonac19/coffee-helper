@@ -12,12 +12,14 @@ struct Drink: Codable, Identifiable {
     let name: String
     let type: String
     let img: String
+    let properties: [String]
     let ingredients: [Ingredient]
     
     enum CodingKeys: String, CodingKey {
         case name
         case type
         case img
+        case properties
         case ingredients
     }
     
@@ -26,6 +28,6 @@ struct Drink: Codable, Identifiable {
         for _ in 1...2 {
             dummyIngredients.append(Ingredient.dummyIngredient())
         }
-        return Drink(name: "Drink Name", type: "Drink Type", img: "mardi_gras", ingredients: dummyIngredients)
+        return Drink(name: "Drink Name", type: "Drink Type", img: "mardi_gras", properties: ["Cold Only"], ingredients: dummyIngredients)
     }
 }

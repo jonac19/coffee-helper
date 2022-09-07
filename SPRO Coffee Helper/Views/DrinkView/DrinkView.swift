@@ -8,12 +8,14 @@
 import SwiftUI
 
 struct DrinkView: View {
-    @State private var isHot: Bool = true
-    @State private var isRegular: Bool = true
+    @State private var isHot: Bool
+    @State private var isRegular: Bool
     var drink: Drink
     
     init(drink: Drink) {
         self.drink = drink
+        self.isHot = !drink.properties.contains("Cold Only")
+        self.isRegular = !drink.properties.contains("Large Only")
         UISegmentedControl.appearance().selectedSegmentTintColor = UIColor(red: 0.93, green: 0.00, blue: 0.02, alpha: 1.00)
         UISegmentedControl.appearance().setTitleTextAttributes([.foregroundColor: UIColor.black], for: .normal)
         UISegmentedControl.appearance().setTitleTextAttributes([.foregroundColor: UIColor.white], for: .selected)

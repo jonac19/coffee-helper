@@ -8,6 +8,7 @@
                     "name": "English Breakfast",
                     "type": "Tea",
                     "img": "island_hop",
+                    "properties": [],
                     "ingredients": [
                         {
                             "name": "English Breakfast Tea Leaves",
@@ -25,8 +26,8 @@
                         },
                         {
                             "name": "Ice",
-                            "hotRegular": "N/A",
-                            "hotLarge": "N/A",
+                            "hotRegular": "50 grams",
+                            "hotLarge": "100 grams",
                             "coldRegular": "100 grams",
                             "coldLarge": "200 grams"
                         }
@@ -36,6 +37,7 @@
                     "name": "Earl Grey",
                     "type": "Tea",
                     "img": "island_hop",
+                    "properties": [],
                     "ingredients": [
                         {
                             "name": "Earl Grey Tea Leaves",
@@ -53,8 +55,8 @@
                         },
                         {
                             "name": "Ice",
-                            "hotRegular": "N/A",
-                            "hotLarge": "N/A",
+                            "hotRegular": "50 grams",
+                            "hotLarge": "100 grams",
                             "coldRegular": "100 grams",
                             "coldLarge": "200 grams"
                         }
@@ -69,6 +71,7 @@
                     "name": "Genmaicha",
                     "type": "Tea",
                     "img": "island_hop",
+                    "properties": [],
                     "ingredients": [
                         {
                             "name": "Genmaicha Tea Leaves",
@@ -86,8 +89,8 @@
                         },
                         {
                             "name": "Ice",
-                            "hotRegular": "N/A",
-                            "hotLarge": "N/A",
+                            "hotRegular": "50 grams",
+                            "hotLarge": "100 grams",
                             "coldRegular": "100 grams",
                             "coldLarge": "200 grams"
                         }
@@ -97,6 +100,7 @@
                     "name": "Cherry Blossom",
                     "type": "Tea",
                     "img": "island_hop",
+                    "properties": [],
                     "ingredients": [
                         {
                             "name": "Cherry Blossom Tea Leaves",
@@ -114,8 +118,8 @@
                         },
                         {
                             "name": "Ice",
-                            "hotRegular": "N/A",
-                            "hotLarge": "N/A",
+                            "hotRegular": "50 grams",
+                            "hotLarge": "100 grams",
                             "coldRegular": "100 grams",
                             "coldLarge": "200 grams"
                         }
@@ -130,6 +134,7 @@
                     "name": "Peppermint",
                     "type": "Tea",
                     "img": "island_hop",
+                    "properties": [],
                     "ingredients": [
                         {
                             "name": "Peppermint Tea Leaves",
@@ -147,8 +152,8 @@
                         },
                         {
                             "name": "Ice",
-                            "hotRegular": "N/A",
-                            "hotLarge": "N/A",
+                            "hotRegular": "50 grams",
+                            "hotLarge": "100 grams",
                             "coldRegular": "100 grams",
                             "coldLarge": "200 grams"
                         }
