@@ -17,6 +17,13 @@
 		DFBE6DC7289C933700D69360 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBE6DC6289C933700D69360 /* Ingredient.swift */; };
 		DFBE6DCB289CCEDB00D69360 /* SproModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBE6DCA289CCEDB00D69360 /* SproModel.swift */; };
 		DFBE6DEF289DB48B00D69360 /* DrinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBE6DEE289DB48B00D69360 /* DrinkView.swift */; };
+		DFE23EC328C8257A00DF413B /* GroupSelectionIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE23EC228C8257A00DF413B /* GroupSelectionIndicatorView.swift */; };
+		DFE23EC528C8273100DF413B /* GroupNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE23EC428C8273100DF413B /* GroupNavigationView.swift */; };
+		DFE23EC828C82D5400DF413B /* GlobalNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE23EC728C82D5400DF413B /* GlobalNavigationView.swift */; };
+		DFE23ECD28C8317A00DF413B /* CategoryNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE23ECC28C8317A00DF413B /* CategoryNavigationView.swift */; };
+		DFE23ECF28C8318700DF413B /* CategoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE23ECE28C8318700DF413B /* CategoryListView.swift */; };
+		DFE23ED128C8F41700DF413B /* DrinkIngredientListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE23ED028C8F41700DF413B /* DrinkIngredientListView.swift */; };
+		DFE23ED328C8F59800DF413B /* DrinkPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE23ED228C8F59800DF413B /* DrinkPickerView.swift */; };
 		DFEDF0CF28A5C0A800A9BD6B /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEDF0CE28A5C0A800A9BD6B /* CategoryView.swift */; };
 		DFEDF0D128A6C30F00A9BD6B /* GroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEDF0D028A6C30F00A9BD6B /* GroupView.swift */; };
 		DFEDF0DF28ACA9C300A9BD6B /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEDF0DE28ACA9C300A9BD6B /* Group.swift */; };
@@ -36,6 +43,13 @@
 		DFBE6DC6289C933700D69360 /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
 		DFBE6DCA289CCEDB00D69360 /* SproModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SproModel.swift; sourceTree = "<group>"; };
 		DFBE6DEE289DB48B00D69360 /* DrinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkView.swift; sourceTree = "<group>"; };
+		DFE23EC228C8257A00DF413B /* GroupSelectionIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupSelectionIndicatorView.swift; sourceTree = "<group>"; };
+		DFE23EC428C8273100DF413B /* GroupNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupNavigationView.swift; sourceTree = "<group>"; };
+		DFE23EC728C82D5400DF413B /* GlobalNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalNavigationView.swift; sourceTree = "<group>"; };
+		DFE23ECC28C8317A00DF413B /* CategoryNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryNavigationView.swift; sourceTree = "<group>"; };
+		DFE23ECE28C8318700DF413B /* CategoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryListView.swift; sourceTree = "<group>"; };
+		DFE23ED028C8F41700DF413B /* DrinkIngredientListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkIngredientListView.swift; sourceTree = "<group>"; };
+		DFE23ED228C8F59800DF413B /* DrinkPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkPickerView.swift; sourceTree = "<group>"; };
 		DFEDF0CE28A5C0A800A9BD6B /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 		DFEDF0D028A6C30F00A9BD6B /* GroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupView.swift; sourceTree = "<group>"; };
 		DFEDF0DE28ACA9C300A9BD6B /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
@@ -75,15 +89,8 @@
 			children = (
 				DFBE6DD6289CF9FF00D69360 /* Local */,
 				DFBE6D8B289B9C1A00D69360 /* SPRO_Coffee_HelperApp.swift */,
-				DFBE6D8D289B9C1A00D69360 /* ContentView.swift */,
-				DFEDF0D028A6C30F00A9BD6B /* GroupView.swift */,
-				DFEDF0CE28A5C0A800A9BD6B /* CategoryView.swift */,
-				DFBE6DEE289DB48B00D69360 /* DrinkView.swift */,
-				DFBE6DCA289CCEDB00D69360 /* SproModel.swift */,
-				DFEDF0DE28ACA9C300A9BD6B /* Group.swift */,
-				DFBE6DC2289C92AF00D69360 /* Category.swift */,
-				DFBE6DC4289C92FD00D69360 /* Drink.swift */,
-				DFBE6DC6289C933700D69360 /* Ingredient.swift */,
+				DFE23EC128C8253000DF413B /* Views */,
+				DFE23EC928C8309C00DF413B /* Models */,
 				DFBE6D8F289B9C1B00D69360 /* Assets.xcassets */,
 				DFBE6D91289B9C1B00D69360 /* Preview Content */,
 			);
@@ -106,6 +113,60 @@
 				DF6222B628AF3C1200BFCA0D /* food_dummy_data.json */,
 			);
 			path = Local;
+			sourceTree = "<group>";
+		};
+		DFE23EC028C8251400DF413B /* GroupView */ = {
+			isa = PBXGroup;
+			children = (
+				DFEDF0D028A6C30F00A9BD6B /* GroupView.swift */,
+				DFE23EC428C8273100DF413B /* GroupNavigationView.swift */,
+				DFE23EC228C8257A00DF413B /* GroupSelectionIndicatorView.swift */,
+			);
+			path = GroupView;
+			sourceTree = "<group>";
+		};
+		DFE23EC128C8253000DF413B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DFBE6D8D289B9C1A00D69360 /* ContentView.swift */,
+				DFE23EC028C8251400DF413B /* GroupView */,
+				DFE23EC628C82C5400DF413B /* CategoryView */,
+				DFE23ECA28C830E500DF413B /* DrinkView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DFE23EC628C82C5400DF413B /* CategoryView */ = {
+			isa = PBXGroup;
+			children = (
+				DFEDF0CE28A5C0A800A9BD6B /* CategoryView.swift */,
+				DFE23EC728C82D5400DF413B /* GlobalNavigationView.swift */,
+				DFE23ECC28C8317A00DF413B /* CategoryNavigationView.swift */,
+				DFE23ECE28C8318700DF413B /* CategoryListView.swift */,
+			);
+			path = CategoryView;
+			sourceTree = "<group>";
+		};
+		DFE23EC928C8309C00DF413B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DFBE6DCA289CCEDB00D69360 /* SproModel.swift */,
+				DFEDF0DE28ACA9C300A9BD6B /* Group.swift */,
+				DFBE6DC2289C92AF00D69360 /* Category.swift */,
+				DFBE6DC4289C92FD00D69360 /* Drink.swift */,
+				DFBE6DC6289C933700D69360 /* Ingredient.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DFE23ECA28C830E500DF413B /* DrinkView */ = {
+			isa = PBXGroup;
+			children = (
+				DFBE6DEE289DB48B00D69360 /* DrinkView.swift */,
+				DFE23ED028C8F41700DF413B /* DrinkIngredientListView.swift */,
+				DFE23ED228C8F59800DF413B /* DrinkPickerView.swift */,
+			);
+			path = DrinkView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,8 +229,8 @@
 			files = (
 				DFEDF0E328ACAACD00A9BD6B /* tea_dummy_data.json in Resources */,
 				DFEDF0E128ACA9E600A9BD6B /* coffee_dummy_data.json in Resources */,
-				DFBE6D93289B9C1B00D69360 /* Preview Assets.xcassets in Resources */,
 				DF6222B728AF3C1200BFCA0D /* food_dummy_data.json in Resources */,
+				DFBE6D93289B9C1B00D69360 /* Preview Assets.xcassets in Resources */,
 				DFBE6D90289B9C1B00D69360 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -181,14 +242,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFE23ED128C8F41700DF413B /* DrinkIngredientListView.swift in Sources */,
 				DFBE6D8E289B9C1A00D69360 /* ContentView.swift in Sources */,
 				DFBE6D8C289B9C1A00D69360 /* SPRO_Coffee_HelperApp.swift in Sources */,
 				DFEDF0D128A6C30F00A9BD6B /* GroupView.swift in Sources */,
 				DFEDF0DF28ACA9C300A9BD6B /* Group.swift in Sources */,
+				DFE23EC528C8273100DF413B /* GroupNavigationView.swift in Sources */,
 				DFBE6DC7289C933700D69360 /* Ingredient.swift in Sources */,
+				DFE23ECD28C8317A00DF413B /* CategoryNavigationView.swift in Sources */,
 				DFBE6DC5289C92FD00D69360 /* Drink.swift in Sources */,
+				DFE23EC328C8257A00DF413B /* GroupSelectionIndicatorView.swift in Sources */,
+				DFE23ECF28C8318700DF413B /* CategoryListView.swift in Sources */,
 				DFBE6DCB289CCEDB00D69360 /* SproModel.swift in Sources */,
+				DFE23ED328C8F59800DF413B /* DrinkPickerView.swift in Sources */,
 				DFBE6DEF289DB48B00D69360 /* DrinkView.swift in Sources */,
+				DFE23EC828C82D5400DF413B /* GlobalNavigationView.swift in Sources */,
 				DFEDF0CF28A5C0A800A9BD6B /* CategoryView.swift in Sources */,
 				DFBE6DC3289C92AF00D69360 /* Category.swift in Sources */,
 			);
