@@ -17,12 +17,8 @@ struct GroupView: View {
                 CategoryView(group: sproModel.groups[0])
             } else if groupSelected == "Tea" {
                 CategoryView(group: sproModel.groups[1])
-//                CategoryView(group: sproModel.groups[1])
-            } else if groupSelected == "Food" {
-                CategoryView(group: sproModel.groups[0])
-//                CategoryView(group: sproModel.groups[2])
-            } else {
-                CategoryView(group: sproModel.groups[0])
+            } else if groupSelected == "Smoothie" {
+                CategoryView(group: sproModel.groups[2])
             }
 
             GroupNavigationView(groupSelected: $groupSelected)

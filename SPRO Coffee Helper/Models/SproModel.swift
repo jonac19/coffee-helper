@@ -9,8 +9,7 @@ import Foundation
 
 class SproModel: ObservableObject {
     var groups: [Group] = [Group]()
-//    let dummyDataFiles: [String] = ["coffee_dummy_data", "tea_dummy_data", "food_dummy_data"]
-    let dummyDataFiles: [String] = ["coffee_dummy_data", "tea_dummy_data"]
+    let dummyDataFiles: [String] = ["coffee_dummy_data", "tea_dummy_data", "smoothie_dummy_data"]
     
     init() {
         self.load()

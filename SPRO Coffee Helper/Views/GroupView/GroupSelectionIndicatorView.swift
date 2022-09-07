@@ -13,15 +13,13 @@ struct GroupSelectionIndicatorView: View {
     var position: CGFloat {
         switch groupSelected {
         case "Coffee":
-            return -144
+            return -125
         case "Tea":
-            return -48
-        case "Food":
-            return 48
-        case "Batch Brew":
-            return 144
+            return 0
+        case "Smoothie":
+            return 125
         default:
-            return -155
+            return -125
         }
     }
     
@@ -29,7 +27,7 @@ struct GroupSelectionIndicatorView: View {
         HStack {
             Rectangle()
                 .foregroundColor(Color(red: 0.93, green: 0.00, blue: 0.02))
-                .frame(width: 70)
+                .frame(width: 100)
                 .offset(x: position)
 
         }

@@ -14,7 +14,7 @@ struct GroupNavigationView: View {
         VStack {
             GroupSelectionIndicatorView(groupSelected: $groupSelected)
             
-            HStack(alignment: .center, spacing: 25) {
+            HStack(alignment: .center, spacing: 40) {
                 Button(action: {
                     groupSelected = "Coffee"
                 }) {
@@ -40,21 +40,9 @@ struct GroupNavigationView: View {
                     .frame(height: 60)
                 
                 Button(action: {
-                    groupSelected = "Food"
+                    groupSelected = "Smoothie"
                 }) {
-                    Image("food_icon")
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .frame(width: 45)
-                }
-
-                Divider()
-                    .frame(height: 60)
-                
-                Button(action: {
-                    groupSelected = "Batch Brew"
-                }) {
-                    Image("coffee_bag_icon")
+                    Image("smoothie_icon")
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                         .frame(width: 45)
