@@ -7,17 +7,19 @@
 
 import SwiftUI
 
+
+
 struct GroupView: View {
     @ObservedObject var sproModel: SproModel = SproModel()
-    @State private var groupSelected: String = "Coffee"
+    @State private var groupSelected: Groups = .coffee
     
     var body: some View {
         VStack(spacing: 0) {
-            if groupSelected == "Coffee" {
+            if groupSelected == .coffee {
                 CategoryView(group: sproModel.groups[0])
-            } else if groupSelected == "Tea" {
+            } else if groupSelected == .tea {
                 CategoryView(group: sproModel.groups[1])
-            } else if groupSelected == "Smoothie" {
+            } else if groupSelected == .smoothie {
                 CategoryView(group: sproModel.groups[2])
             }
 

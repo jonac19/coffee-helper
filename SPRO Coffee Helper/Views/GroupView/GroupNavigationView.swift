@@ -8,44 +8,22 @@
 import SwiftUI
 
 struct GroupNavigationView: View {
-    @Binding var groupSelected: String
+    @Binding var groupSelected: Groups
+    
+    
     
     var body: some View {
         VStack {
             GroupSelectionIndicatorView(groupSelected: $groupSelected)
-            
-            HStack(alignment: .center, spacing: 40) {
-                Button(action: {
-                    groupSelected = "Coffee"
-                }) {
-                    Image("coffee_icon")
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .frame(width: 45)
-                }
-                
-                Divider()
-                    .frame(height: 60)
-
-                Button(action: {
-                    groupSelected = "Tea"
-                }) {
-                    Image("tea_icon")
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .frame(width: 45)
-                }
-                
-                Divider()
-                    .frame(height: 60)
-                
-                Button(action: {
-                    groupSelected = "Smoothie"
-                }) {
-                    Image("smoothie_icon")
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .frame(width: 45)
+        
+            HStack(alignment: .center, spacing: 80) {
+                ForEach(Groups.allCases, id: \.rawValue) { group in
+                    Button(action: {
+                        groupSelected = group
+                    }) {
+                        Image(group.rawValue)
+                            .GroupButtonImageModifier()
+                    }
                 }
             }
         }
@@ -58,7 +36,7 @@ struct GroupNavigationBarView_Previews: PreviewProvider {
     }
     
     struct GroupNavigationBarPreView : View {
-        @State var groupSelected: String = "Coffee"
+        @State var groupSelected: Groups = .coffee
         
         var body: some View {
             GroupNavigationView(groupSelected: $groupSelected)
