@@ -8,18 +8,16 @@
 import SwiftUI
 
 struct GroupSelectionIndicatorView: View {
-    @Binding var groupSelected: String
+    @Binding var groupSelected: Groups
     
     var position: CGFloat {
         switch groupSelected {
-        case "Coffee":
+        case .coffee:
             return -125
-        case "Tea":
+        case .tea:
             return 0
-        case "Smoothie":
+        case .smoothie:
             return 125
-        default:
-            return -125
         }
     }
     
