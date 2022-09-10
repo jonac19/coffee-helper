@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct CategoryNavigationView: View {
-    var group: Group
-    var scrollProxy: ScrollViewProxy
+    let group: Group
+    let proxy: ScrollViewProxy
     
     var body: some View {
         ScrollView(.horizontal, showsIndicators: false) {
@@ -17,7 +17,7 @@ struct CategoryNavigationView: View {
                 ForEach(group.categories) { category in
                     Button(category.name) {
                         withAnimation {
-                            scrollProxy.scrollTo("ID " + category.name, anchor: .top)
+                            proxy.scrollTo("ID " + category.name, anchor: .top)
                         }
                     }
                     .foregroundColor(.white)

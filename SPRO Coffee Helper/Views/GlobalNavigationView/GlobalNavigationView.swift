@@ -11,27 +11,29 @@ struct GlobalNavigationView: View {
     @Binding var isSearching: Bool
     
     var body: some View {
-        HStack {
-            Image("spro_logo_clear")
-                .resizable()
-                .aspectRatio(contentMode: .fit)
-                .frame(width: 100)
-            Spacer()
-            Button(action: {
-                isSearching = !isSearching
-            }) {
-                Image("search_icon")
+        ZStack {
+            HStack {
+                Image("spro_logo_clear")
                     .resizable()
-                    .scaledToFit()
-                    .frame(width: 40)
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 100)
+                Spacer()
+                Button(action: {
+                    isSearching = !isSearching
+                }) {
+                    Image("search_icon")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 40)
+                }
             }
+            .padding([.leading, .trailing], 20)
         }
-        .padding([.leading, .trailing], 20)
     }
 }
 
 struct GlobalNavigationView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        GlobalNavigationView(isSearching: Binding.constant(false))
     }
 }

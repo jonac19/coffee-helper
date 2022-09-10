@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct CategoryListView: View {
-    var group: Group
+    let group: Group
     
     var body: some View {
         List {

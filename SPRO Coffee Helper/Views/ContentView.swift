@@ -8,8 +8,24 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var isSearching: Bool = false
+
     var body: some View {
-        GroupView()
+        ZStack {
+            NavigationView {
+                VStack {
+                    GlobalNavigationView(isSearching: $isSearching)
+
+                    GroupView()
+                        .navigationBarTitle("Back", displayMode: .inline)
+                        .navigationBarHidden(true)
+                }
+            }
+            
+            if isSearching {
+                GlobalSearchView(isSearching: $isSearching)
+            }
+        }
     }
 }
 
