@@ -8,13 +8,42 @@
 import SwiftUI
 
 struct GlobalSearchView: View {
+    @State private var drinkName: String = ""
+    @Binding var isSearching: Bool
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack(alignment: .topLeading) {
+            GeometryReader {_ in
+                EmptyView()
+            }
+            .ignoresSafeArea()
+            .background(.white)
+            
+            HStack {
+                Image("search_icon")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 30)
+                
+                TextField("Enter Drink", text: $drinkName)
+                    .overlay(
+                        Image(systemName: "xmark.circle.fill")
+                            .padding()
+                            .foregroundColor(Color(red: 0.93, green: 0.00, blue: 0.02))
+                            .onTapGesture {
+                                isSearching = false
+                            }
+                        
+                        , alignment: .trailing
+                    )
+            }
+            .padding()
+        }
     }
 }
 
 struct GlobalSearchView_Previews: PreviewProvider {
     static var previews: some View {
-        GlobalSearchView()
+        ContentView()
     }
 }

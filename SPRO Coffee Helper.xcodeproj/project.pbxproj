@@ -158,8 +158,8 @@
 			children = (
 				DF40F7E828C9C3D600241B8F /* ViewModifiers.swift */,
 				DFBE6D8D289B9C1A00D69360 /* ContentView.swift */,
-				DFE23EC028C8251400DF413B /* GroupView */,
 				DF40F7E528C9A63200241B8F /* GlobalNavigationView */,
+				DFE23EC028C8251400DF413B /* GroupView */,
 				DFE23EC628C82C5400DF413B /* CategoryView */,
 				DFE23ECA28C830E500DF413B /* DrinkView */,
 			);
