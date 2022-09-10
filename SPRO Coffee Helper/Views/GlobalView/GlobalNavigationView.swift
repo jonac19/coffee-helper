@@ -21,10 +21,11 @@ struct GlobalNavigationView: View {
                 Button(action: {
                     isSearching = !isSearching
                 }) {
-                    Image("search_icon")
+                    Image(systemName: "magnifyingglass")
                         .resizable()
                         .scaledToFit()
                         .frame(width: 40)
+                        .foregroundColor(Color(red: 0.93, green: 0.00, blue: 0.02))
                 }
             }
             .padding([.leading, .trailing], 20)

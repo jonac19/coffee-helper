@@ -10,6 +10,8 @@
 		DF40F7E728C9A66500241B8F /* GlobalSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF40F7E628C9A66500241B8F /* GlobalSearchView.swift */; };
 		DF40F7E928C9C3D600241B8F /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF40F7E828C9C3D600241B8F /* ViewModifiers.swift */; };
 		DF40F7EC28C9CA4400241B8F /* Groups.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF40F7EB28C9CA4400241B8F /* Groups.swift */; };
+		DF9622C128CC3BE000E1869D /* GlobalSearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9622C028CC3BE000E1869D /* GlobalSearchBarView.swift */; };
+		DF9622C328CC3D2500E1869D /* GlobalSearchListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9622C228CC3D2500E1869D /* GlobalSearchListView.swift */; };
 		DFBE6D8C289B9C1A00D69360 /* SPRO_Coffee_HelperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBE6D8B289B9C1A00D69360 /* SPRO_Coffee_HelperApp.swift */; };
 		DFBE6D8E289B9C1A00D69360 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBE6D8D289B9C1A00D69360 /* ContentView.swift */; };
 		DFBE6D90289B9C1B00D69360 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFBE6D8F289B9C1B00D69360 /* Assets.xcassets */; };
@@ -38,6 +40,8 @@
 		DF40F7E628C9A66500241B8F /* GlobalSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalSearchView.swift; sourceTree = "<group>"; };
 		DF40F7E828C9C3D600241B8F /* ViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiers.swift; sourceTree = "<group>"; };
 		DF40F7EB28C9CA4400241B8F /* Groups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Groups.swift; sourceTree = "<group>"; };
+		DF9622C028CC3BE000E1869D /* GlobalSearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalSearchBarView.swift; sourceTree = "<group>"; };
+		DF9622C228CC3D2500E1869D /* GlobalSearchListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalSearchListView.swift; sourceTree = "<group>"; };
 		DFBE6D88289B9C1A00D69360 /* SPRO Coffee Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SPRO Coffee Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFBE6D8B289B9C1A00D69360 /* SPRO_Coffee_HelperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPRO_Coffee_HelperApp.swift; sourceTree = "<group>"; };
 		DFBE6D8D289B9C1A00D69360 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -74,13 +78,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DF40F7E528C9A63200241B8F /* GlobalNavigationView */ = {
+		DF40F7E528C9A63200241B8F /* GlobalView */ = {
 			isa = PBXGroup;
 			children = (
 				DFE23EC728C82D5400DF413B /* GlobalNavigationView.swift */,
 				DF40F7E628C9A66500241B8F /* GlobalSearchView.swift */,
+				DF9622C028CC3BE000E1869D /* GlobalSearchBarView.swift */,
+				DF9622C228CC3D2500E1869D /* GlobalSearchListView.swift */,
 			);
-			path = GlobalNavigationView;
+			path = GlobalView;
 			sourceTree = "<group>";
 		};
 		DF40F7EA28C9CA0A00241B8F /* Objects */ = {
@@ -158,7 +164,7 @@
 			children = (
 				DF40F7E828C9C3D600241B8F /* ViewModifiers.swift */,
 				DFBE6D8D289B9C1A00D69360 /* ContentView.swift */,
-				DF40F7E528C9A63200241B8F /* GlobalNavigationView */,
+				DF40F7E528C9A63200241B8F /* GlobalView */,
 				DFE23EC028C8251400DF413B /* GroupView */,
 				DFE23EC628C82C5400DF413B /* CategoryView */,
 				DFE23ECA28C830E500DF413B /* DrinkView */,
@@ -282,11 +288,13 @@
 				DFE23ECF28C8318700DF413B /* CategoryListView.swift in Sources */,
 				DFBE6DCB289CCEDB00D69360 /* SproModel.swift in Sources */,
 				DFE23ED328C8F59800DF413B /* DrinkPickerView.swift in Sources */,
+				DF9622C328CC3D2500E1869D /* GlobalSearchListView.swift in Sources */,
 				DF40F7E728C9A66500241B8F /* GlobalSearchView.swift in Sources */,
 				DFBE6DEF289DB48B00D69360 /* DrinkView.swift in Sources */,
 				DFE23EC828C82D5400DF413B /* GlobalNavigationView.swift in Sources */,
 				DFEDF0CF28A5C0A800A9BD6B /* CategoryView.swift in Sources */,
 				DFBE6DC3289C92AF00D69360 /* Category.swift in Sources */,
+				DF9622C128CC3BE000E1869D /* GlobalSearchBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
