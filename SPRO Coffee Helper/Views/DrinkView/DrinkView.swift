@@ -10,7 +10,7 @@ import SwiftUI
 struct DrinkView: View {
     @State private var isHot: Bool
     @State private var isRegular: Bool
-    var drink: Drink
+    let drink: Drink
     
     init(drink: Drink) {
         self.drink = drink

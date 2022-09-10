@@ -8,9 +8,9 @@
 import SwiftUI
 
 struct DrinkIngredientListView: View {
-    var drink: Drink
-    var isHot: Bool
-    var isRegular: Bool
+    let drink: Drink
+    let isHot: Bool
+    let isRegular: Bool
     
     var body: some View {
         ScrollView(.vertical) {

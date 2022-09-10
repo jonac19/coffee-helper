@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct DrinkPickerView: View {
-    var drink: Drink
+    let drink: Drink
     @Binding var isHot: Bool
     @Binding var isRegular: Bool
     

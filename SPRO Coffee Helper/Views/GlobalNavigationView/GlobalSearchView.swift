@@ -44,6 +44,6 @@ struct GlobalSearchView: View {
 
 struct GlobalSearchView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        GlobalSearchView(isSearching: Binding.constant(true))
     }
 }

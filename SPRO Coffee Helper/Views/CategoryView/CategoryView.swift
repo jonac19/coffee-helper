@@ -9,26 +9,16 @@ import SwiftUI
 
 struct CategoryView: View {
     private var group: Group
-    @Binding var isSearching: Bool
     
-    init(group: Group, isSearching: Binding<Bool>) {
+    init(group: Group) {
         self.group = group
-        _isSearching = isSearching
         UIBarButtonItem.appearance().tintColor = .white
     }
     
     var body: some View {
-        NavigationView {
-            VStack {
-                GlobalNavigationView(isSearching: $isSearching)
-
-                ScrollViewReader { proxy in
-                    CategoryNavigationView(group: group, scrollProxy: proxy)
-                    CategoryListView(group: group)
-                }
-            }
-            .navigationBarTitle("Back", displayMode: .inline)
-            .navigationBarHidden(true)
+        ScrollViewReader { proxy in
+            CategoryNavigationView(group: group, proxy: proxy)
+            CategoryListView(group: group)
         }
     }
 }
