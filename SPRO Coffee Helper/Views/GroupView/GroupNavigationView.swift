@@ -10,8 +10,6 @@ import SwiftUI
 struct GroupNavigationView: View {
     @Binding var groupSelected: Groups
     
-    
-    
     var body: some View {
         VStack {
             GroupSelectionIndicatorView(groupSelected: $groupSelected)

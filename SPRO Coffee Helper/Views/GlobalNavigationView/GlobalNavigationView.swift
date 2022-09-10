@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct GlobalNavigationView: View {
+    @Binding var isSearching: Bool
+    
     var body: some View {
         HStack {
             Image("spro_logo_clear")
@@ -16,12 +18,12 @@ struct GlobalNavigationView: View {
                 .frame(width: 100)
             Spacer()
             Button(action: {
-                
+                isSearching = !isSearching
             }) {
                 Image("search_icon")
                     .resizable()
                     .scaledToFit()
-                    .frame(width: 45)
+                    .frame(width: 40)
             }
         }
         .padding([.leading, .trailing], 20)

@@ -22,14 +22,10 @@ struct GroupSelectionIndicatorView: View {
     }
     
     var body: some View {
-        HStack {
-            Rectangle()
-                .foregroundColor(Color(red: 0.93, green: 0.00, blue: 0.02))
-                .frame(width: 100)
-                .offset(x: position)
-
-        }
-        .frame(height: 5)
+        Rectangle()
+            .foregroundColor(Color(red: 0.93, green: 0.00, blue: 0.02))
+            .frame(width: 100, height: 5)
+            .offset(x: position) 
     }
 }
 

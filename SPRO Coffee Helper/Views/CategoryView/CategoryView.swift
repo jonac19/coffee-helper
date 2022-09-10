@@ -8,19 +8,19 @@
 import SwiftUI
 
 struct CategoryView: View {
-    var group: Group
-    @State private var visibleCategories: Set<Category>
+    private var group: Group
+    @Binding var isSearching: Bool
     
-    init(group: Group) {
-        UIBarButtonItem.appearance().tintColor = .white
-        visibleCategories = Set(group.categories)
+    init(group: Group, isSearching: Binding<Bool>) {
         self.group = group
+        _isSearching = isSearching
+        UIBarButtonItem.appearance().tintColor = .white
     }
     
     var body: some View {
         NavigationView {
             VStack {
-                GlobalNavigationView()
+                GlobalNavigationView(isSearching: $isSearching)
 
                 ScrollViewReader { proxy in
                     CategoryNavigationView(group: group, scrollProxy: proxy)
