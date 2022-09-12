@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct GlobalSearchListView: View {
+    @Binding var searchText: String
+    
     var body: some View {
         VStack {
             Text("Under Construction")
@@ -23,6 +25,6 @@ struct GlobalSearchListView: View {
 
 struct GlobalSearchListView_Previews: PreviewProvider {
     static var previews: some View {
-        GlobalSearchListView()
+        GlobalSearchView(isSearching: Binding.constant(true))
     }
 }
