@@ -20,10 +20,14 @@ struct GlobalSearchView: View {
             .ignoresSafeArea()
             .background(Color(UIColor.systemBackground))
             
-            VStack {
-                GlobalSearchBarView(searchText: $searchText, isSearching: $isSearching)
-                
-                GlobalSearchListView(searchText: $searchText)
+            NavigationView {
+                VStack {
+                    GlobalSearchBarView(searchText: $searchText, isSearching: $isSearching)
+                    
+                    GlobalSearchListView(searchText: $searchText)
+                }
+                .navigationBarTitle("Back", displayMode: .inline)
+                .navigationBarHidden(true)
             }
         }
     }
@@ -32,5 +36,6 @@ struct GlobalSearchView: View {
 struct GlobalSearchView_Previews: PreviewProvider {
     static var previews: some View {
         GlobalSearchView(isSearching: Binding.constant(true))
+            .environmentObject(SproModel())
     }
 }
