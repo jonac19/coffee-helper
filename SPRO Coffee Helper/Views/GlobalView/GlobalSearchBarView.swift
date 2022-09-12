@@ -62,5 +62,6 @@ struct GlobalSearchBarView: View {
 struct GlobalSearchBarView_Previews: PreviewProvider {
     static var previews: some View {
         GlobalSearchView(isSearching: Binding.constant(true))
+            .environmentObject(SproModel())
     }
 }
