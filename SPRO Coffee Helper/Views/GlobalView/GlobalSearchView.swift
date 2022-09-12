@@ -9,6 +9,7 @@ import SwiftUI
 
 struct GlobalSearchView: View {
     @State var searchText: String = ""
+    
     @Binding var isSearching: Bool
     
     var body: some View {
@@ -21,9 +22,8 @@ struct GlobalSearchView: View {
             
             VStack {
                 GlobalSearchBarView(searchText: $searchText, isSearching: $isSearching)
-                Spacer()
+                
                 GlobalSearchListView(searchText: $searchText)
-                Spacer()
             }
         }
     }

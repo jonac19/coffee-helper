@@ -10,8 +10,9 @@ import SwiftUI
 
 
 struct GroupView: View {
-    @StateObject var sproModel: SproModel = SproModel()
     @State private var groupSelected: Groups = .coffee
+    
+    @EnvironmentObject var sproModel: SproModel
     
     var body: some View {
         VStack {
@@ -31,5 +32,6 @@ struct GroupView: View {
 struct GroupView_Previews: PreviewProvider {
     static var previews: some View {
         GroupView()
+            .environmentObject(SproModel())
     }
 }

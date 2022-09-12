@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct GroupSelectionIndicatorView: View {
-    @Binding var groupSelected: Groups
+    let groupSelected: Groups
     
     var position: CGFloat {
         switch groupSelected {

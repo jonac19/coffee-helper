@@ -12,7 +12,7 @@ struct GroupNavigationView: View {
     
     var body: some View {
         VStack {
-            GroupSelectionIndicatorView(groupSelected: $groupSelected)
+            GroupSelectionIndicatorView(groupSelected: groupSelected)
         
             HStack(alignment: .center, spacing: 80) {
                 ForEach(Groups.allCases, id: \.rawValue) { group in
