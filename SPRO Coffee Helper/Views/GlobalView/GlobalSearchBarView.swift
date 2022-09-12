@@ -8,41 +8,54 @@
 import SwiftUI
 
 struct GlobalSearchBarView: View {
-    @State private var searchText: String = ""
     @FocusState private var isFocused: Bool
+    @Binding var searchText: String
     @Binding var isSearching: Bool
 
     
     var body: some View {
         HStack {
-            Image(systemName: "magnifyingglass")
+            Image(systemName: "chevron.left")
                 .resizable()
                 .scaledToFit()
-                .frame(width: 30)
+                .frame(width: 12)
                 .foregroundColor(Color(red: 0.93, green: 0.00, blue: 0.02))
-            
-            TextField("Search...", text: $searchText)
-                .disableAutocorrection(true)
-                .onAppear {
-                    isFocused = true
+                .padding()
+                .onTapGesture {
+                    isSearching = false
                 }
-                .focused($isFocused, equals: isSearching)
-                .overlay(
-                    Image(systemName: "xmark.circle.fill")
-                        .padding()
-                        .foregroundColor(Color(red: 0.93, green: 0.00, blue: 0.02))
-                        .onTapGesture {
-                            isSearching = false
-                        }
-                    ,alignment: .trailing
-                )
+        
+            HStack {
+                Image(systemName: "magnifyingglass")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 30)
+                    .foregroundColor(Color(red: 0.93, green: 0.00, blue: 0.02))
+                
+                TextField("Search...", text: $searchText)
+                    .disableAutocorrection(true)
+                    .onAppear {
+                        isFocused = true
+                    }
+                    .focused($isFocused, equals: isSearching)
+                    .overlay(
+                        Image(systemName: "xmark.circle.fill")
+                            .padding()
+                            .foregroundColor(Color(red: 0.93, green: 0.00, blue: 0.02))
+                            .opacity(searchText == "" ? 0 : 1)
+                            .onTapGesture {
+                                searchText = ""
+                            }
+                        ,alignment: .trailing
+                    )
+            }
+            .padding([.leading, .top, .bottom])
+            .overlay(
+                RoundedRectangle(cornerRadius: 16)
+                    .stroke()
+            )
+            .padding(.trailing)
         }
-        .padding()
-        .overlay(
-            RoundedRectangle(cornerRadius: 16)
-                .stroke()
-        )
-        .padding([.leading, .trailing])
     }
 }
 
