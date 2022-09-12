@@ -9,9 +9,9 @@ import SwiftUI
 
 struct GlobalSearchBarView: View {
     @FocusState private var isFocused: Bool
+    
     @Binding var searchText: String
     @Binding var isSearching: Bool
-
     
     var body: some View {
         HStack {

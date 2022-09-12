@@ -8,9 +8,10 @@
 import SwiftUI
 
 struct DrinkView: View {
-    @State private var isHot: Bool
-    @State private var isRegular: Bool
     let drink: Drink
+    
+    @State var isHot: Bool
+    @State var isRegular: Bool
     
     init(drink: Drink) {
         self.drink = drink

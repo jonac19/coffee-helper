@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var sproModel: SproModel = SproModel()
+
     @State private var isSearching: Bool = false
 
     var body: some View {
@@ -26,6 +28,7 @@ struct ContentView: View {
                 GlobalSearchView(isSearching: $isSearching)
             }
         }
+        .environmentObject(sproModel)
     }
 }
 
