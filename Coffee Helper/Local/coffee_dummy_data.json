@@ -1,0 +1,605 @@
+{
+    "name": "Coffee",
+    "categories": [
+        {
+            "name": "Simple",
+            "drinks": [
+                {
+                    "name": "Mocha",
+                    "type": "Espresso",
+                    "img": "coffee_img",
+                    "properties": [],
+                    "ingredients": [
+                        {
+                            "name": "Dark Chocolate",
+                            "hotRegular": "100 grams",
+                            "hotLarge": "200 grams",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        }
+                    ]
+                },
+                {
+                    "name": "Hot Chocolate",
+                    "type": "Other",
+                    "img": "coffee_img",
+                    "properties": [],
+                    "ingredients": [
+                        {
+                            "name": "Dark Chocolate",
+                            "hotRegular": "100 grams",
+                            "hotLarge": "200 grams",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                            
+                        }
+                    ]
+                },
+                {
+                    "name": "Chai",
+                    "type": "Other",
+                    "img": "coffee_img",
+                    "properties": [],
+                    "ingredients": [
+                        {
+                            "name": "Chai Concentrate",
+                            "hotRegular": "100 grams",
+                            "hotLarge": "200 grams",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Fancy",
+            "drinks": [
+                {
+                    "name": "Spice Islands",
+                    "type": "Espresso",
+                    "img": "coffee_img",
+                    "properties": [],
+                    "ingredients": [
+                        {
+                            "name": "Spice Islands Mix",
+                            "hotRegular": "100 grams",
+                            "hotLarge": "200 grams",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        }
+                    ]
+                },
+                {
+                    "name": "V for Velvet",
+                    "type": "Espresso",
+                    "img": "coffee_img",
+                    "properties": [],
+                    "ingredients": [
+                        {
+                            "name": "V for Velvet Mix",
+                            "hotRegular": "100 grams",
+                            "hotLarge": "200 grams",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        }
+                    ]
+                },
+                {
+                    "name": "Orange Blossom",
+                    "type": "Espresso",
+                    "img": "coffee_img",
+                    "properties": [],
+                    "ingredients": [
+                        {
+                            "name": "Honey",
+                            "hotRegular": "100 grams",
+                            "hotLarge": "200 grams",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        },
+                        {
+                            "name": "Orange Extract",
+                            "hotRegular": "100 grams",
+                            "hotLarge": "200 grams",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        }
+                    ]
+                },
+                {
+                    "name": "Coco De Mer",
+                    "type": "Espresso",
+                    "img": "coffee_img",
+                    "properties": [],
+                    "ingredients": [
+                        {
+                            "name": "Dark Chocolate",
+                            "hotRegular": "100 grams",
+                            "hotLarge": "200 grams",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        }
+                    ]
+                },
+                {
+                    "name": "Geisha",
+                    "type": "Matcha",
+                    "img": "coffee_img",
+                    "properties": [],
+                    "ingredients": [
+                        {
+                            "name": "Honey",
+                            "hotRegular": "100 grams",
+                            "hotLarge": "200 grams",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        }
+                    ]
+                },
+                {
+                    "name": "Shiro",
+                    "type": "Matcha",
+                    "img": "coffee_img",
+                    "properties": [],
+                    "ingredients": [
+                        {
+                            "name": "White Chocolate",
+                            "hotRegular": "100 grams",
+                            "hotLarge": "200 grams",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Seasonal",
+            "drinks": [
+                {
+                    "name": "Smoke & Mirror",
+                    "type": "Espresso",
+                    "img": "coffee_img",
+                    "properties": [],
+                    "ingredients": [
+                        {
+                            "name": "Agave",
+                            "hotRegular": "100 grams",
+                            "hotLarge": "200 grams",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        },
+                        {
+                            "name": "Rose Syrup",
+                            "hotRegular": "100 grams",
+                            "hotLarge": "200 grams",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        },
+                        {
+                            "name": "Smoke Extract",
+                            "hotRegular": "100 grams",
+                            "hotLarge": "200 grams",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        }
+                    ]
+                },
+                {
+                    "name": "Indian Summer",
+                    "type": "Espresso",
+                    "img": "coffee_img",
+                    "properties": [],
+                    "ingredients": [
+                        {
+                            "name": "Rose Syrup",
+                            "hotRegular": "100 grams",
+                            "hotLarge": "200 grams",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        },
+                        {
+                            "name": "Cardamom",
+                            "hotRegular": "100 grams",
+                            "hotLarge": "200 grams",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        }
+                    ]
+                },
+                {
+                    "name": "Island Hop",
+                    "type": "Espresso",
+                    "img": "coffee_img",
+                    "properties": [],
+                    "ingredients": [
+                        {
+                            "name": "Island Hop Mix",
+                            "hotRegular": "100 grams",
+                            "hotLarge": "200 grams",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        }
+                    ]
+                },
+                {
+                    "name": "Tea Thyme",
+                    "type": "Espresso",
+                    "img": "coffee_img",
+                    "properties": [],
+                    "ingredients": [
+                        {
+                            "name": "Black Currant Syrup",
+                            "hotRegular": "100 grams",
+                            "hotLarge": "200 grams",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        },
+                        {
+                            "name": "Thyme",
+                            "hotRegular": "100 grams",
+                            "hotLarge": "200 grams",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        }
+                    ]
+                },
+                {
+                    "name": "Pixie Dust",
+                    "type": "Espresso",
+                    "img": "coffee_img",
+                    "properties": [],
+                    "ingredients": [
+                        {
+                            "name": "Yuzu",
+                            "hotRegular": "100 grams",
+                            "hotLarge": "200 grams",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        },
+                        {
+                            "name": "Sansho Pepper",
+                            "hotRegular": "100 grams",
+                            "hotLarge": "200 grams",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        },
+                        {
+                            "name": "Gold Dust",
+                            "hotRegular": "100 grams",
+                            "hotLarge": "200 grams",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        }
+                    ]
+                },
+                {
+                    "name": "Black Swan",
+                    "type": "Espresso",
+                    "img": "coffee_img",
+                    "properties": [],
+                    "ingredients": [
+                        {
+                            "name": "Honey",
+                            "hotRegular": "100 grams",
+                            "hotLarge": "200 grams",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        },
+                        {
+                            "name": "Charcoal",
+                            "hotRegular": "100 grams",
+                            "hotLarge": "200 grams",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        }
+                    ]
+                },
+                {
+                    "name": "Kat's Pajamas",
+                    "type": "Espresso",
+                    "img": "coffee_img",
+                    "properties": [],
+                    "ingredients": [
+                        {
+                            "name": "Honey",
+                            "hotRegular": "100 grams",
+                            "hotLarge": "200 grams",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        },
+                        {
+                            "name": "Tumeric/Ginger",
+                            "hotRegular": "100 grams",
+                            "hotLarge": "200 grams",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        }
+                    ]
+                },
+                {
+                    "name": "Madagascar",
+                    "type": "Espresso",
+                    "img": "coffee_img",
+                    "properties": [],
+                    "ingredients": [
+                        {
+                            "name": "Dark Muscovado Sugar",
+                            "hotRegular": "100 grams",
+                            "hotLarge": "200 grams",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        },
+                        {
+                            "name": "Vanilla Extract",
+                            "hotRegular": "100 grams",
+                            "hotLarge": "200 grams",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        }
+                    ]
+                },
+                {
+                    "name": "Mardi Gras",
+                    "type": "Cold Brew",
+                    "img": "coffee_img",
+                    "properties": ["Cold Only"],
+                    "ingredients": [
+                        {
+                            "name": "Mardi Gras Concentrate",
+                            "hotRegular": "",
+                            "hotLarge": "",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        },
+                        {
+                            "name": "Simple Syrup",
+                            "hotRegular": "100 grams",
+                            "hotLarge": "200 grams",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        }
+                    ]
+                },
+                {
+                    "name": "Tokyo Rose",
+                    "type": "Matcha",
+                    "img": "coffee_img",
+                    "properties": [],
+                    "ingredients": [
+                        {
+                            "name": "Rose Syrup",
+                            "hotRegular": "100 grams",
+                            "hotLarge": "200 grams",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        }
+                    ]
+                },
+                {
+                    "name": "Hojicha",
+                    "type": "Hojicha",
+                    "img": "coffee_img",
+                    "properties": [],
+                    "ingredients": [
+                        {
+                            "name": "Simple Syrup",
+                            "hotRegular": "100 grams",
+                            "hotLarge": "200 grams",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Over The Top",
+            "drinks": [
+                {
+                    "name": "The Cool Hunter",
+                    "type": "Cold Brew",
+                    "img": "coffee_img",
+                    "properties": ["Cold Only"],
+                    "ingredients": [
+                        {
+                            "name": "Cold Brew",
+                            "hotRegular": "",
+                            "hotLarge": "",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        },
+                        {
+                            "name": "Sparkling Water",
+                            "hotRegular": "",
+                            "hotLarge": "",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        },
+                        {
+                            "name": "Elderflower",
+                            "hotRegular": "",
+                            "hotLarge": "",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        },
+                        {
+                            "name": "Grapefruit Bitter",
+                            "hotRegular": "",
+                            "hotLarge": "",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        }
+                    ]
+                },
+                {
+                    "name": "Cold Fashion",
+                    "type": "Cold Brew",
+                    "img": "coffee_img",
+                    "properties": ["Cold Only"],
+                    "ingredients": [
+                        {
+                            "name": "Cold Brew",
+                            "hotRegular": "",
+                            "hotLarge": "",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        },
+                        {
+                            "name": "Gum Syrup",
+                            "hotRegular": "",
+                            "hotLarge": "",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        },
+                        {
+                            "name": "Orange Blossom",
+                            "hotRegular": "",
+                            "hotLarge": "",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        },
+                        {
+                            "name": "Orange Peel",
+                            "hotRegular": "",
+                            "hotLarge": "",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        },
+                        {
+                            "name": "Luxardo Cherry",
+                            "hotRegular": "",
+                            "hotLarge": "",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        }
+                    ]
+                },
+                {
+                    "name": "Sangria",
+                    "type": "Cold Brew",
+                    "img": "coffee_img",
+                    "properties": ["Cold Only"],
+                    "ingredients": [
+                        {
+                            "name": "Cold Brew",
+                            "hotRegular": "",
+                            "hotLarge": "",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        },
+                        {
+                            "name": "Frozen Berries",
+                            "hotRegular": "",
+                            "hotLarge": "",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        },
+                        {
+                            "name": "Peach Bitter",
+                            "hotRegular": "",
+                            "hotLarge": "",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        },
+                        {
+                            "name": "Raspberry Gum",
+                            "hotRegular": "",
+                            "hotLarge": "",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        }
+                    ]
+                },
+                {
+                    "name": "Strawberry Fields",
+                    "type": "Tea",
+                    "img": "coffee_img",
+                    "properties": ["Cold Only"],
+                    "ingredients": [
+                        {
+                            "name": "Cherry Blossom Tea",
+                            "hotRegular": "",
+                            "hotLarge": "",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        },
+                        {
+                            "name": "Strawberry",
+                            "hotRegular": "",
+                            "hotLarge": "",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        },
+                        {
+                            "name": "Mint Leaf",
+                            "hotRegular": "",
+                            "hotLarge": "",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        },
+                        {
+                            "name": "Honey",
+                            "hotRegular": "",
+                            "hotLarge": "",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        },
+                        {
+                            "name": "Rhubarb",
+                            "hotRegular": "",
+                            "hotLarge": "",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        }
+                    ]
+                },
+                {
+                    "name": "Fifty Shades",
+                    "type": "Tea",
+                    "img": "coffee_img",
+                    "properties": [],
+                    "ingredients": [
+                        {
+                            "name": "Fifty Shades Tea",
+                            "hotRegular": "225",
+                            "hotLarge": "310",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        },
+                        {
+                            "name": "Evaporated Milk",
+                            "hotRegular": "100 grams",
+                            "hotLarge": "200 grams",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        }
+                    ]
+                },
+                {
+                    "name": "Hong Kong Milk Tea",
+                    "type": "Tea",
+                    "img": "coffee_img",
+                    "properties": [],
+                    "ingredients": [
+                        {
+                            "name": "Hong Kong Milk Tea",
+                            "hotRegular": "100 grams",
+                            "hotLarge": "200 grams",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        },
+                        {
+                            "name": "Evaporated Milk",
+                            "hotRegular": "100 grams",
+                            "hotLarge": "200 grams",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

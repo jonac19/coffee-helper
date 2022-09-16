@@ -1,0 +1,165 @@
+{
+    "name": "Tea",
+    "categories": [
+        {
+            "name": "Black Tea",
+            "drinks": [
+                {
+                    "name": "English Breakfast",
+                    "type": "Tea",
+                    "img": "coffee_img",
+                    "properties": [],
+                    "ingredients": [
+                        {
+                            "name": "English Breakfast Tea Leaves",
+                            "hotRegular": "100 grams",
+                            "hotLarge": "200 grams",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        },
+                        {
+                            "name": "Water",
+                            "hotRegular": "100 grams",
+                            "hotLarge": "200 grams",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        },
+                        {
+                            "name": "Ice",
+                            "hotRegular": "100 grams",
+                            "hotLarge": "200 grams",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        }
+                    ]
+                },
+                {
+                    "name": "Earl Grey",
+                    "type": "Tea",
+                    "img": "coffee_img",
+                    "properties": [],
+                    "ingredients": [
+                        {
+                            "name": "Earl Grey Tea Leaves",
+                            "hotRegular": "100 grams",
+                            "hotLarge": "200 grams",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        },
+                        {
+                            "name": "Water",
+                            "hotRegular": "100 grams",
+                            "hotLarge": "200 grams",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        },
+                        {
+                            "name": "Ice",
+                            "hotRegular": "100 grams",
+                            "hotLarge": "200 grams",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Green Tea",
+            "drinks": [
+                {
+                    "name": "Genmaicha",
+                    "type": "Tea",
+                    "img": "coffee_img",
+                    "properties": [],
+                    "ingredients": [
+                        {
+                            "name": "Genmaicha Tea Leaves",
+                            "hotRegular": "100 grams",
+                            "hotLarge": "200 grams",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        },
+                        {
+                            "name": "Water",
+                            "hotRegular": "100 grams",
+                            "hotLarge": "200 grams",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        },
+                        {
+                            "name": "Ice",
+                            "hotRegular": "100 grams",
+                            "hotLarge": "200 grams",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        }
+                    ]
+                },
+                {
+                    "name": "Cherry Blossom",
+                    "type": "Tea",
+                    "img": "coffee_img",
+                    "properties": [],
+                    "ingredients": [
+                        {
+                            "name": "Cherry Blossom Tea Leaves",
+                            "hotRegular": "100 grams",
+                            "hotLarge": "200 grams",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        },
+                        {
+                            "name": "Water",
+                            "hotRegular": "100 grams",
+                            "hotLarge": "200 grams",
+                            "coldRegular": "N/A",
+                            "coldLarge": "N/A"
+                        },
+                        {
+                            "name": "Ice",
+                            "hotRegular": "100 grams",
+                            "hotLarge": "200 grams",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Herbal Tea",
+            "drinks": [
+                {
+                    "name": "Peppermint",
+                    "type": "Tea",
+                    "img": "coffee_img",
+                    "properties": [],
+                    "ingredients": [
+                        {
+                            "name": "Peppermint Tea Leaves",
+                            "hotRegular": "100 grams",
+                            "hotLarge": "200 grams",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        },
+                        {
+                            "name": "Water",
+                            "hotRegular": "100 grams",
+                            "hotLarge": "200 grams",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        },
+                        {
+                            "name": "Ice",
+                            "hotRegular": "100 grams",
+                            "hotLarge": "200 grams",
+                            "coldRegular": "150 grams",
+                            "coldLarge": "250 grams"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
