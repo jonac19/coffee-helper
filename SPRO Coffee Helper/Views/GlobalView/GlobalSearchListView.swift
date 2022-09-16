@@ -22,16 +22,6 @@ struct GlobalSearchListView: View {
                 )
             }
         }
-
-//        VStack {
-//            Text("Under Construction")
-//                .padding()
-//                .font(.system(size: 30))
-//            Image(systemName: "xmark")
-//                .resizable()
-//                .scaledToFit()
-//                .frame(height: 100)
-//        }
     }
     
     func getSearchResult(searchText: String) -> [Drink] {
@@ -40,7 +30,7 @@ struct GlobalSearchListView: View {
         for group in sproModel.groups {
             for category in group.categories {
                 for drink in category.drinks {
-                    if drink.name.contains(searchText) {
+                    if drink.name.lowercased().contains(searchText.lowercased()) {
                         searchResult.append(drink)
                     }
                 }
