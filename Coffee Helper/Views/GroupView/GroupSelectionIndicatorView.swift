@@ -32,6 +32,6 @@ struct GroupSelectionIndicatorView: View {
 struct GroupSelectionBarView_Previews: PreviewProvider {
     static var previews: some View {
         GroupView()
-            .environmentObject(CoffeeShopModel())
+            .environmentObject(CoffeeShopViewModel())
     }
 }

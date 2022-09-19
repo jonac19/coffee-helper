@@ -10,7 +10,7 @@ import SwiftUI
 struct GlobalSearchListView: View {
     @Binding var searchText: String
     
-    @EnvironmentObject var coffeeShopModel: CoffeeShopModel
+    @EnvironmentObject var coffeeShopViewModel: CoffeeShopViewModel
     
     var body: some View {
         let searchResult: [Drink] = getSearchResult(searchText: searchText)
@@ -27,7 +27,7 @@ struct GlobalSearchListView: View {
     func getSearchResult(searchText: String) -> [Drink] {
         var searchResult: [Drink] = [Drink]()
         
-        for group in coffeeShopModel.groups {
+        for group in coffeeShopViewModel.groups {
             for category in group.categories {
                 for drink in category.drinks {
                     if drink.name.lowercased().contains(searchText.lowercased()) {
@@ -44,6 +44,6 @@ struct GlobalSearchListView: View {
 struct GlobalSearchListView_Previews: PreviewProvider {
     static var previews: some View {
         GlobalSearchView(isSearching: Binding.constant(true))
-            .environmentObject(CoffeeShopModel())
+            .environmentObject(CoffeeShopViewModel())
     }
 }

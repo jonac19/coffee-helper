@@ -36,6 +36,6 @@ struct GlobalSearchView: View {
 struct GlobalSearchView_Previews: PreviewProvider {
     static var previews: some View {
         GlobalSearchView(isSearching: Binding.constant(true))
-            .environmentObject(CoffeeShopModel())
+            .environmentObject(CoffeeShopViewModel())
     }
 }

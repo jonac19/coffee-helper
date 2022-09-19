@@ -35,6 +35,6 @@ struct CategoryListView: View {
 struct CategoryListView_Previews: PreviewProvider {
     static var previews: some View {
         GroupView()
-            .environmentObject(CoffeeShopModel())
+            .environmentObject(CoffeeShopViewModel())
     }
 }

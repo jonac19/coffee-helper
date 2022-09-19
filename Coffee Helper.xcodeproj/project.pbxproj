@@ -19,7 +19,7 @@
 		DFBE6DC3289C92AF00D69360 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBE6DC2289C92AF00D69360 /* Category.swift */; };
 		DFBE6DC5289C92FD00D69360 /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBE6DC4289C92FD00D69360 /* Drink.swift */; };
 		DFBE6DC7289C933700D69360 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBE6DC6289C933700D69360 /* Ingredient.swift */; };
-		DFBE6DCB289CCEDB00D69360 /* CoffeeShopModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBE6DCA289CCEDB00D69360 /* CoffeeShopModel.swift */; };
+		DFBE6DCB289CCEDB00D69360 /* CoffeeShopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBE6DCA289CCEDB00D69360 /* CoffeeShopViewModel.swift */; };
 		DFBE6DEF289DB48B00D69360 /* DrinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBE6DEE289DB48B00D69360 /* DrinkView.swift */; };
 		DFE23EC328C8257A00DF413B /* GroupSelectionIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE23EC228C8257A00DF413B /* GroupSelectionIndicatorView.swift */; };
 		DFE23EC528C8273100DF413B /* GroupNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE23EC428C8273100DF413B /* GroupNavigationView.swift */; };
@@ -50,7 +50,7 @@
 		DFBE6DC2289C92AF00D69360 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		DFBE6DC4289C92FD00D69360 /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
 		DFBE6DC6289C933700D69360 /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
-		DFBE6DCA289CCEDB00D69360 /* CoffeeShopModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeShopModel.swift; sourceTree = "<group>"; };
+		DFBE6DCA289CCEDB00D69360 /* CoffeeShopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeShopViewModel.swift; sourceTree = "<group>"; };
 		DFBE6DEE289DB48B00D69360 /* DrinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkView.swift; sourceTree = "<group>"; };
 		DFE23EC228C8257A00DF413B /* GroupSelectionIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupSelectionIndicatorView.swift; sourceTree = "<group>"; };
 		DFE23EC428C8273100DF413B /* GroupNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupNavigationView.swift; sourceTree = "<group>"; };
@@ -89,7 +89,7 @@
 			path = GlobalView;
 			sourceTree = "<group>";
 		};
-		DF40F7EA28C9CA0A00241B8F /* Objects */ = {
+		DF40F7EA28C9CA0A00241B8F /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				DFEDF0DE28ACA9C300A9BD6B /* Group.swift */,
@@ -98,7 +98,7 @@
 				DFBE6DC6289C933700D69360 /* Ingredient.swift */,
 				DF40F7EB28C9CA4400241B8F /* Groups.swift */,
 			);
-			path = Objects;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		DFBE6D7F289B9C1A00D69360 = {
@@ -123,8 +123,8 @@
 				DFBE6DD6289CF9FF00D69360 /* Local */,
 				DFBE6D8B289B9C1A00D69360 /* Coffee_HelperApp.swift */,
 				DFE23EC128C8253000DF413B /* Views */,
-				DFE23EC928C8309C00DF413B /* Models */,
-				DF40F7EA28C9CA0A00241B8F /* Objects */,
+				DFE23EC928C8309C00DF413B /* ViewModels */,
+				DF40F7EA28C9CA0A00241B8F /* Models */,
 				DFBE6D8F289B9C1B00D69360 /* Assets.xcassets */,
 				DFBE6D91289B9C1B00D69360 /* Preview Content */,
 			);
@@ -182,12 +182,12 @@
 			path = CategoryView;
 			sourceTree = "<group>";
 		};
-		DFE23EC928C8309C00DF413B /* Models */ = {
+		DFE23EC928C8309C00DF413B /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				DFBE6DCA289CCEDB00D69360 /* CoffeeShopModel.swift */,
+				DFBE6DCA289CCEDB00D69360 /* CoffeeShopViewModel.swift */,
 			);
-			path = Models;
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		DFE23ECA28C830E500DF413B /* DrinkView */ = {
@@ -286,7 +286,7 @@
 				DFBE6DC5289C92FD00D69360 /* Drink.swift in Sources */,
 				DFE23EC328C8257A00DF413B /* GroupSelectionIndicatorView.swift in Sources */,
 				DFE23ECF28C8318700DF413B /* CategoryListView.swift in Sources */,
-				DFBE6DCB289CCEDB00D69360 /* CoffeeShopModel.swift in Sources */,
+				DFBE6DCB289CCEDB00D69360 /* CoffeeShopViewModel.swift in Sources */,
 				DFE23ED328C8F59800DF413B /* DrinkPickerView.swift in Sources */,
 				DF9622C328CC3D2500E1869D /* GlobalSearchListView.swift in Sources */,
 				DF40F7E728C9A66500241B8F /* GlobalSearchView.swift in Sources */,

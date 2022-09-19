@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @StateObject var coffeeShopModel: CoffeeShopModel = CoffeeShopModel()
+    @StateObject var coffeeShopViewModel: CoffeeShopViewModel = CoffeeShopViewModel()
 
     @State private var isSearching: Bool = false
 
@@ -28,7 +28,7 @@ struct ContentView: View {
                 GlobalSearchView(isSearching: $isSearching)
             }
         }
-        .environmentObject(self.coffeeShopModel)
+        .environmentObject(self.coffeeShopViewModel)
     }
 }
 
