@@ -5,6 +5,22 @@ navigation bars for categories and subcategories, as well as a search feature to
 
 ![Coffee Helper Mock Up](https://github.com/jonac19/jonac19.github.io/blob/main/images/projects/coffeeHelper.png)
 
+## Features
+
+- Find out more details about a specific drink by selecting it from the list
+
+   ![Drink Details Feature](https://user-images.githubusercontent.com/87283715/211174895-57585014-313b-444b-8eb5-dade1cb8a014.gif)
+   
+- Easily navigate between drink categories and groups
+
+   ![Category Navigation Bar](https://user-images.githubusercontent.com/87283715/211175092-5ebc693a-f649-42da-a2d3-02cec21aef80.gif)
+
+   ![Group Navigation Bar](https://user-images.githubusercontent.com/87283715/211175095-b5a74336-d605-45f7-beb1-45dcb86189fb.gif)
+
+- Search for drinks by name using the search bar
+
+   ![Search Feature](https://user-images.githubusercontent.com/87283715/211174863-fd864454-e367-44b6-bd6a-16ad8fec315f.gif)
+
 ## Built With
 
 - Swift
